@@ -1,6 +1,7 @@
 Estructuras
 	-Condicionales:
-		-if
+		-if: Condición (rombo).
+			&& - || 
 		-else if / els if
 		-select / switch
 		
