@@ -1,0 +1,17 @@
+Estructuras
+	-Condicionales:
+		-if
+		-else if / els if
+		-select / switch
+		
+	-Bucles:
+		-Recorrido fijo:
+			-For
+		-Recorrido variable:
+			-For
+			-Do
+			-While
+			-Until
+Tipos de Datos
+	-
+	-

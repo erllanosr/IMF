@@ -1,0 +1,14 @@
+Renfe
+	Requisitos:
+		R.1.1 - Los usuarios puedan notificar incidencias a tiempo real.
+		R.1.2 - Mapa a tiempo real de todas las líneas.
+		R.1.3 - Comprar billetes.
+		R.1.4 - Mostrar mejores rutas y/o rutas sugeridas de un punto A-B.
+		R.1.5 - Opción de elegir en qué línea estamos viajando actualmente (antes de empezar un recorrido) y ver la ruta completa.
+		R.1.6 - Registro opcional.
+		R.1.7 - Buscar lugares, paradas y líneas.
+		
+	Funcionalidades:
+		R.1.3 - Añadir un método de pago.
+		
+		

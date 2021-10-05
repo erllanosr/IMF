@@ -1,0 +1,14 @@
+BASES DE DATOS
+	Tabla1
+		Campo1
+		Campo2
+		Campo3
+	Tabla2
+		Campo1
+		Campo2
+		Campo3
+	Tabla3
+		Campo1
+		Campo2
+		Campo3
+		Campo4

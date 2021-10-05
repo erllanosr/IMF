@@ -24,7 +24,6 @@ public class Sumar {
 		
 		System.out.println(operando1 + operando2);
 		//System.out.println(suma);
-		
 	}
 
 }
