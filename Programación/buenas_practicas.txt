@@ -1,0 +1,3 @@
+BUENAS PRÁCTICAS
+-break; -----> suspenso (excepción switch)
+-Declarar variables en mitad del código, siempre en la ZONA DECLARATIVA.

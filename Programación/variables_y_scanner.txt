@@ -1,0 +1,132 @@
+//declaración de variables y uso del scanner
+
+//INT
+
+import java.util.Scanner;
+
+public class DiaSemana {
+
+	public static void main(String[] args) {
+		
+		int dato;
+		int dato2;
+		Scanner sc=new Scanner(System.in);
+		
+		dato=10;
+		System.out.println("Introduce el dato");
+		dato2=sc.nextInt();
+		
+		System.out.println("dato: " + dato + " dato2: " + dato2);
+		
+	}
+
+}
+
+//BYTE
+
+import java.util.Scanner;
+
+public class DiaSemana {
+
+	public static void main(String[] args) {
+		
+		byte dato;
+		byte dato2;
+		Scanner sc=new Scanner(System.in);
+		
+		dato=10;
+		System.out.println("Introduce el dato");
+		dato2=sc.nextByte();
+		
+		System.out.println("dato: " + dato + " dato2: " + dato2);
+		
+	}
+
+}
+
+//SHORT
+
+import java.util.Scanner;
+
+public class DiaSemana {
+
+	public static void main(String[] args) {
+		
+		short dato;
+		short dato2;
+		Scanner sc=new Scanner(System.in);
+		
+		dato=10;
+		System.out.println("Introduce el dato");
+		dato2=sc.nextShort();
+		
+		System.out.println("dato: " + dato + " dato2: " + dato2);
+		
+	}
+
+}
+
+//LONG
+
+import java.util.Scanner;
+
+public class DiaSemana {
+
+	public static void main(String[] args) {
+		
+		long dato;
+		long dato2;
+		Scanner sc=new Scanner(System.in);
+		
+		dato=10;
+		System.out.println("Introduce el dato");
+		dato2=sc.nextLong();
+		
+		System.out.println("dato: " + dato + " dato2: " + dato2);
+		
+	}
+
+}
+
+//CHAR
+import java.util.Scanner;
+
+public class DiaSemana {
+
+	public static void main(String[] args) {
+		
+		char dato;
+		char dato2;
+		Scanner sc=new Scanner(System.in);
+		
+		dato='A';
+		System.out.println("Introduce el dato");
+		dato2=sc.next().charAt(0);
+		
+		System.out.println("dato: " + dato + " dato2: " + dato2);
+		
+	}
+
+}
+
+//string
+import java.util.Scanner;
+
+public class DiaSemana {
+
+	public static void main(String[] args) {
+		
+		String dato;
+		String dato2;
+		Scanner sc=new Scanner(System.in);
+		
+		dato="Hola ";
+		System.out.println("Introduce el dato");
+		dato2=sc.nextLine();
+		
+		System.out.println("dato: " + dato + " dato2: " + dato2);
+		
+	}
+
+}
+

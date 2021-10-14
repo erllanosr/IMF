@@ -60,7 +60,7 @@ public class abonotransporte {
 		}
 		// Por qué no va¿? Debería ir dentro de un else después de preguntar si la edad
 		// es >=11 && edad <=25¿?
-		if (edad >= 24 && edad <= 64) {
+		if (edad >= 25 && edad <= 64) {
 			System.out.println("Escribe tu zona:");
 			zona = sc.next().charAt(0);
 		}
@@ -68,6 +68,5 @@ public class abonotransporte {
 			System.out.println("Ahora elige una de estas opciones:"); // Preguntar por opciones
 			System.out.println("1. Familia numerosa. 2. Discapacidad. 3. Funcionario. 4. Ninguna.");
 		}
-
 	}
 }

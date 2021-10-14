@@ -1,0 +1,31 @@
+Switch (variable){
+Sirve para evaluar valores concretos, si es 1 o 2 o 3 o 4:
+case 0:
+	syso("cero");
+case 1:
+	syso("uno");
+case 2:
+	syso("dos");
+-
+-
+-
+case 9:
+	syso("nueve");
+default:
+	syso("diez")
+-----
+Ejemplo:
+int nota;
+nota = 2;
+
+switch (nota){
+case 0:
+	syso("cero");
+case 1:
+	syso("uno");
+case 2:
+	syso("dos");
+Cuando llegue al dos, imprime por pantalla la palabra "dos".
+
+Hay que poner "break;" al final de cada línea para que no se imprima todo y solo se imprima por pantalla el correspondiente.
+
