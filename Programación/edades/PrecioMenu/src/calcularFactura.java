@@ -12,10 +12,9 @@ public class calcularFactura {
 		int precioApe = 0;
 		int precioPri = 0;
 		int precioPos = 0;
-		int precioSIVA = precioApe + precioPri + precioPos;
-		float precioCIVA = (float) (precioApe + precioPri + precioPos + (precioApe + precioPri + precioPos * 0.05));
-
+		int valorDado;
 		// ZONA EJECUTIVA
+
 		System.out.println("Introduce el Aperitivo que quieras, 1-3");
 		aperitivo = sc.nextInt();
 		System.out.println("Introduce el Primero que quieras, 1-3");
@@ -23,7 +22,7 @@ public class calcularFactura {
 		System.out.println("Introduce el Postre que quieras, 1-3");
 		postre = sc.nextInt();
 
-		//LISTA PLATOS
+		// LISTA PLATOS
 		switch (aperitivo) {
 		case 1:
 			precioApe = 11;
@@ -58,9 +57,10 @@ public class calcularFactura {
 			break;
 		}
 		// PRECIOS SIN IVA Y CON IVA
-		System.out.println("Precio sin IVA " + (precioSIVA) + "€.");
+		System.out.println("Precio sin IVA " + (precioApe + precioPri + precioPos) + "€.");
 		System.out.println("IVA 5%");
-		System.out.printf("Precio + IVA " + (precioCIVA) + "€.");
+		System.out.printf("Precio + IVA "
+				+ (precioApe + precioPri + precioPos + (precioApe + precioPri + precioPos) * (5) / 100 + "€."));
 	}
 
 }
