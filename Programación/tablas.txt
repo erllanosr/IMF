@@ -1,0 +1,17 @@
+int num1;
+int num2;
+Scanner sc = new Scanner(System.in);
+
+ System.out.println("Introduce el número desde");
+num1 = sc.nextInt();
+System.out.println("Introduce el número hasta");
+num2 = sc.nextInt();
+
+ for (int i = num1; i <= num2; i++) {
+
+ for (int j = 0; j <= 10; j++) {
+System.out.println(i + "x" + j + "=" + (i * j));
+
+ }
+System.out.println("=================");
+}

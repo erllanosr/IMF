@@ -1,0 +1,14 @@
+BASES DE DATOS
+----
+Para entrar a MariaDB desde consola en Linux -> 
+cd /opt/lampp/bin
+./mysql -u root -p
+
+-SHOW DATABASES;
+-create database NOMBREBD; -> Para crear una BD nueva.
+Para mostrar las bases de datos que tenemos creadas.
+-use NOMBREBD; -> Para usar la BD que queremos.
+-show tables; -> para ver las tablas de la BD.
+-describe NOMBREBD; -> Para ver la estructura de la BD.
+-select * from NOMBREBD; -> Para ver el contenido de la BD.
+-create table NOMBREBD; -> Para crear tabalas.
