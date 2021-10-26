@@ -11,4 +11,4 @@ Para mostrar las bases de datos que tenemos creadas.
 -show tables; -> para ver las tablas de la BD.
 -describe NOMBREBD; -> Para ver la estructura de la BD.
 -select * from NOMBREBD; -> Para ver el contenido de la BD.
--create table NOMBREBD; -> Para crear tabalas.
+-create table NOMBREBD; -> Para crear tablas.

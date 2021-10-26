@@ -21,27 +21,22 @@ public class bucles2 {
 		 * } System.out.println("PUM!");
 		 */
 
-		// ZONA DECLARATIVA
-		Scanner sc = new Scanner(System.in);
 		int num1;
 		int num2;
+		Scanner sc = new Scanner(System.in);
 
-		// ZONA EJECUTIVA
-		System.out.println("Elige el primer número entre 1 - 10 para hacer la operación:");
+		System.out.println("Introduce el número desde");
 		num1 = sc.nextInt();
+		System.out.println("Introduce el número hasta");
+		num2 = sc.nextInt();
 
-		// TABLA 1
-		if (num1 == 1 || num1 == 2 || num1 == 3 || num1 == 4 || num1 == 5) {
-			for (num1 = 1; num1 <= 12; num1++) {
-				System.out.println(1 + "x" + num1 + "=" + (num1 * 1));
-				for (num1 = 2; num1 <= 12; num1++) {
-					System.out.println(2 + "x" + num1 + "=" + (num1 * 2));
-					for (num1 = 3; num1 <= 12; num1++) {
-						System.out.println(3 + "x" + num1 + "=" + (num1 * 3));
-					}
-				}
+		for (int i = num1; i <= num2; i++) {
+
+			for (int j = 0; j <= 10; j++) {
+				System.out.println(i + "x" + j + "=" + (i * j));
 
 			}
+			System.out.println("=================");
 		}
 	}
 }

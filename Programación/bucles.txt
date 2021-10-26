@@ -1,10 +1,14 @@
-Sirve para repetir una acción "x" veces.
+		// TABLA 1Sirve para repetir una acción "x" veces.
 -BUCLES de RECORRIDO FIJO: Cuantas veces van a repetir el código.
 --FOR.
 ---SINTAXIS DE FOR: 
 ----for (int i=0 ; i<3 ; i++){
 	Todo lo que está aquí se repetirá en base a lo que esté declarado en los paréntesis.
 ----}
+
+-int i=0 -> CONTADOR
+-i < 3 -> CONDICIÓN
+-i++ -> INCREMENTO O DECREMENTO.
 Este código se ejecutará 3 veces y termina el bucle.
 i, j, k, l
 La i significa las veces que se repetirá el bucle.

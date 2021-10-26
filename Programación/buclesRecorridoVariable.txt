@@ -1,0 +1,9 @@
+WHILE (CONDICIÓN){
+
+}
+El while se cumple y se repite mientras la CONDICIÓN sea TRUE, si es FALSE, sale del bucle.
+DO {
+
+} WHILE (CONDICIÓN);
+
+Pedir
