@@ -1,0 +1,17 @@
+//buscar una letra en una palabra
+int contador=0;
+String palabra="raton";
+char letra='j';
+boolean buscar=false;
+do{
+if(letra==palabra.charAt(contador)){
+buscar=true;
+System.out.println("la letra " + letra + " esta en la palabra " + palabra + " en la posición " + (contador+1));
+}else{
+contador++;
+}
+
+ }while(contador<palabra.length() && buscar==false);
+if(!buscar){
+System.out.println("No encontrado");
+}
