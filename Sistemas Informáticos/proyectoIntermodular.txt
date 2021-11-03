@@ -1,0 +1,8 @@
+1. Programa de escritorio. Software que se ejecuta, el código de todo el programa está en
+un equipo. Ejemplo Whatsapp, se instala en el móvil y se lanza en el mismo. Un 80% en el equipo
+y un 20% fuera del equipo. Aproximadamente.
+1.1. Interfaz, el interfaz se ejecuta dentro del móvil.
+1.2. Reglas de negocio. 
+1.3. Reglas de negocio.
+1.4. Datos 
+1.1 y 1.2 el 80%. 1.3 y 1.4 el 20%.
