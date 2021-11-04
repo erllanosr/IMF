@@ -1,1 +1,187 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T10:59:01.828Z" agent="5.0 (X11)" version="15.6.8" etag="PQMDm-UaHzhpfmCHKdp_" type="github"><diagram id="VdOsq-F18AdChOYIpm5G">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-04T11:38:36.871Z" agent="5.0 (X11)" etag="0biD4bfoKGTUh8jPbgRX" version="15.6.8" type="github">
+  <diagram id="VdOsq-F18AdChOYIpm5G" name="Page-1">
+    <mxGraphModel dx="953" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="399" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-5" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="210" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-6" value="Ingresar&amp;nbsp; un número entre 100 y 1000" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="356.75" y="240" width="134.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.76" y="140" as="sourcePoint" />
+            <mxPoint x="424" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.76" y="310" as="sourcePoint" />
+            <mxPoint x="424" y="379.99999999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423.76" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-9" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="620" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-10" value="Escribe cuántos números quieres que el sistema elija, mayor a 3.." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="344" y="660" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="336" y="1010" width="176" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-14" value="El sistema genera la cantidad de números al azar elegido por el usuario." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="339" y="1050" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.65999999999997" y="720" as="sourcePoint" />
+            <mxPoint x="423.9" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423.65999999999997" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-19" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1180" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-20" value="Muestra los tres números más altos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1215" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.65999999999997" y="940" as="sourcePoint" />
+            <mxPoint x="423.9" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423.65999999999997" y="970.0000000000001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="399" y="1350" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="8DrwOsFtgT8tIBUpSAKW-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="455.19047619047615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="8DrwOsFtgT8tIBUpSAKW-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-23" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="316" y="380" width="216" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-24" value="¿Los números están dentro del rango?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="394" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-28" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="256" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-31" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="405" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-30" value="&lt;div&gt;Error, ingresa un número que esté dentro del rango de 100-1000.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-33" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="8DrwOsFtgT8tIBUpSAKW-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="405" as="sourcePoint" />
+            <mxPoint x="150" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-37" value="SÍ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="420" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="8DrwOsFtgT8tIBUpSAKW-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="865.2758620689656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-49" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="316" y="790" width="216" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-51" value="¿Es correcto?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="394" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-52" value="&lt;div&gt;SÍ&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="344" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-55" value="&lt;div&gt;NO&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="250" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=15;entryX=0.058;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8DrwOsFtgT8tIBUpSAKW-56" target="8DrwOsFtgT8tIBUpSAKW-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="145" y="670" />
+              <mxPoint x="340" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-56" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="815" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-58" value="Error, ingresa un número mayor a 3." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="75" y="850" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-61" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.65999999999985" y="1110" as="sourcePoint" />
+            <mxPoint x="423.9000000000001" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423.65999999999997" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-62" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.65999999999985" y="1280" as="sourcePoint" />
+            <mxPoint x="423.9000000000001" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423.65999999999997" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-63" value="" style="shape=link;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="1460" as="sourcePoint" />
+            <mxPoint x="800" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-64" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="399" y="1500" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-65" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="1550" as="sourcePoint" />
+            <mxPoint x="425" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="8DrwOsFtgT8tIBUpSAKW-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-66" value="Muestra por pantalla las opciones disponibles de compra. Producto, precio y peso." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="299" y="1600" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8DrwOsFtgT8tIBUpSAKW-68" value="El usuario selecciona lo que quiere comprar." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="299" y="1840" width="250" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
