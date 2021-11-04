@@ -1,0 +1,7 @@
+Cadena="Hola M"
+cadena.length -> 6
+cadena.charAt(3) -> a
+cadena.indexof("ol") -> 1
+cadena.lastindexof(" ") -> 4
+cadena.substring(1,3) -> "ol"
+cadena.substring(3) -> A_M
