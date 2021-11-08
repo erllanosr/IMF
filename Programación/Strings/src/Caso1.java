@@ -24,7 +24,6 @@ public class Caso1 {
 		System.out.println("Su primer apellido es:" + apellido1);
 		apellido2 = texto.substring(espacio2);
 		System.out.println("Su segundo apellido es:" + apellido2);
-		System.out.println);
 	}
 
 }

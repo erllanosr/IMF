@@ -9,6 +9,6 @@ public class Caso2 {
 		String nombre2;
 		String apellido1;
 		String apellido2;
-	}
 
+	}
 }
