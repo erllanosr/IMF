@@ -1,0 +1,9 @@
+Primera FORMA NORMAL
+-Que hayan clases primarias.
+-Que no hayan valores nulos.
+-Que hayan valores atómicos.
+SEGUNDA FORMA NORMAL
+-Tiene que cumplir TODO lo de la PRIMERA FORMA NORMAL.
++Todo atributo que no es clave principal depende funcionalmente de forma completa de ella.
+
+

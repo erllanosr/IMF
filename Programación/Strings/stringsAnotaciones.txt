@@ -1,0 +1,18 @@
+String text = PALABRA
+text.substring(2,4) -> LAB
+text.toUppercase() -> PALABRA, convierte el texto a mayúsculas.
+text.toLowerCase() -> palabra, convierte el texto a minúsculas.
+text.trim(); -> quita los espacios al inicio y al final de la palabra.
+
+texto="Hola"
+FORMA INCORRECTA
+Los operadores lógicos no suelen funcionar con cadenas.
+if (texto=="Hola"){
+}
+FORMA CORRECTA
+if (text.equals("Hola")){
+}
+
+-----
+PREGUNTAR AL USUARIO SI QUIERE CONTINUAR O NO. 
+Responderá: Sí, SI, SÍ, sí, sÍ, s, n, No, NO, no, nO. 
