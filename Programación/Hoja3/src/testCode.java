@@ -1,23 +1,23 @@
+import java.util.Scanner;
 
 public class testCode {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int diaCumpleanyos = 5;
+		int mesCumpleAnyos = 12;
+		int anyoNacimiento = 1990;
 
-		int numeroAleatorio = 0;
-		int min = 100;
-		int max = 1000;
+		int diaActual = 14;
+		int mesActual = 11;
+		int anyoActual = 2021;
 
-		System.out.println(Math.floor(Math.random() * (max - min + 1) + min));
-
-		int numero = 200;
-		do {
-			for (int i = 100; i < 3; i++) {
-				numeroAleatorio = (int) Math.floor(Math.random() * (numero - 100) + 100);
-				System.out.println(numeroAleatorio);
-			}
-		} while (numeroAleatorio < 100 || numeroAleatorio > 1000);
+		int anyos = anyoActual - anyoNacimiento;
+		if ((mesActual - mesCumpleAnyos) < 0) {
+			anyos = anyos - 1;
+		}
+		System.out.print(anyos);
 
 	}
-
 }

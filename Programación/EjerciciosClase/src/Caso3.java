@@ -11,19 +11,21 @@ public class Caso3 {
 		// ZONA DECLARATIVA
 		Scanner sc = new Scanner(System.in);
 		int numVentasTotal;
-		int numVentas = 0;
-		int numVentas2 = 0;
+		int precioVenta = 0;
+		int numPrecioVentas = 0;
 
 		// ZONA EJECUTIVA
 		System.out.println("Introduce el total de Ventas:");
 		numVentasTotal = sc.nextInt();
 
+		// CONSIDERAR HACERLO CON DO WHILE¿?
 		for (int i = 1; i <= numVentasTotal; i++) {
-			System.out.println("Ingresa el número de ventas:");
-			numVentas = sc.nextInt();
+			System.out.println("Introduce el precio de la venta:");
+			precioVenta = sc.nextInt();
 		}
-		System.out.println();
-
+		System.out.println(precioVenta=precioVenta+=precioVenta);
+		// ALMACENAR EL PRECIO DE LA VENTA EN UNA VARIABLE O DOS PARA LUEGO HACER LA
+		// SUMA CORRESPONDIENTE.
 	}
 
 }

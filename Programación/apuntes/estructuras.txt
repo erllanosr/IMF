@@ -9,7 +9,6 @@ Estructuras
 		-Recorrido fijo:
 			-For
 		-Recorrido variable:
-			-For
 			-Do
 			-While
 			-Until

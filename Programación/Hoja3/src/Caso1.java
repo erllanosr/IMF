@@ -8,7 +8,8 @@ public class Caso1 {
 		Scanner sc = new Scanner(System.in);
 		int numUsuario;
 		int numRepeticiones;
-		int numeroAleatorio;
+		int numeroAleatorio = 0;
+		int numeroAlto;
 
 		// ZONA EJECUTIVA
 		// Pedir número y comprobar que esté dentro del rango.
@@ -23,13 +24,14 @@ public class Caso1 {
 			numRepeticiones = sc.nextInt();
 		} while (numRepeticiones < 3);
 
-		// Generar 3 números al azar con el límite elegido por el usuario.
-		
-	
-		while(numRepeticiones>3) {
-			numeroAleatorio=(int) Math.floor(Math.random()*numUsuario+100);
+		// Generar números al azar con el límite elegido por el usuario.
+		int numero = numUsuario;
+		for (int i = 0; i < numRepeticiones; i++) {
+			numeroAleatorio = (int) Math.floor(Math.random() * (numero - 100) + 100);
 			System.out.println(numeroAleatorio);
+
 		}
+		// Mostrar los tres números más altos de la lista.
 
 	}
 
