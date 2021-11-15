@@ -1,0 +1,5 @@
+Reflexiva -> a R a
+Conmutativa -> aRb -> bRa
+Transitiva -> aRb y bRc -> aRc
+
+
