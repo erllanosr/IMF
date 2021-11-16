@@ -15,10 +15,10 @@ public class Pum {
 		System.out.println("Ingresa un número:");
 		numero = sc.nextInt();
 		
-		for (int i = numero; i <= 0; i--) {
-			i -= 1;
+		for (int i = numero; i >0; i--) {
+			System.out.println(i-1);
 		}
-		System.out.println(numero + "PUM!");
+		System.out.println("PUM!");
 
 	}
 

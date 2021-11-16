@@ -1,0 +1,145 @@
+MariaDB [(none)]> create database miEmpresa;
+Query OK, 1 row affected (0.001 sec)
+----
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| miEmpresa          |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+6 rows in set (0.001 sec)
+----
+MariaDB [(none)]> use miEmpresa;
+Database changed
+MariaDB [miEmpresa]> CREATE TABLE almacen (ID INT PRIMARY KEY AUTO_INCREMENT, referencia VARCHAR (20), descripcion VARCHAR(30), pasillo INT, estante INT, altura INT, precio INT, tipoDeIVA INT, proveedor VARCHAR(30));
+Query OK, 0 rows affected (0.015 sec)
+----
+MariaDB [miEmpresa]> show tables;
++---------------------+
+| Tables_in_miEmpresa |
++---------------------+
+| almacen             |
++---------------------+
+1 row in set (0.001 sec)
+----
+MariaDB [miEmpresa]> describe almacen;
++-------------+-------------+------+-----+---------+----------------+
+| Field       | Type        | Null | Key | Default | Extra          |
++-------------+-------------+------+-----+---------+----------------+
+| ID          | int(11)     | NO   | PRI | NULL    | auto_increment |
+| referencia  | varchar(10) | YES  |     | NULL    |                |
+| descripcion | varchar(30) | YES  |     | NULL    |                |
+| pasillo     | int(11)     | YES  |     | NULL    |                |
+| estante     | int(11)     | YES  |     | NULL    |                |
+| altura      | int(11)     | YES  |     | NULL    |                |
+| precio      | int(11)     | YES  |     | NULL    |                |
+| tipoDeIVA   | int(11)     | YES  |     | NULL    |                |
+| proveedor   | varchar(30) | YES  |     | NULL    |                |
++-------------+-------------+------+-----+---------+----------------+
+9 rows in set (0.002 sec)
+----
+MariaDB [miEmpresa]> insert into almacen (ID,referencia,descripcion,pasillo,estante,altura,precio,tipoDeIVA,proveedor) values (null, "LG-G203","Raton Logitech G203", "1","1","1","20","21",">
+Query OK, 1 row affected (0.008 sec)
+
+MariaDB [miEmpresa]> select * from almacen;
++----+------------+---------------------+---------+---------+--------+--------+-----------+-----------+
+| ID | referencia | descripcion         | pasillo | estante | altura | precio | tipoDeIVA | proveedor |
++----+------------+---------------------+---------+---------+--------+--------+-----------+-----------+
+|  1 | LG-G203    | Raton Logitech G203 |       1 |       1 |      1 |     20 |        21 | Logitech  |
++----+------------+---------------------+---------+---------+--------+--------+-----------+-----------+
+1 row in set (0.001 sec)
+----
+<ion,pasillo,estante,altura,precio,tipoDeIVA,proveedor) values (null, "LG-G305","Raton Logitech G305", "1","2","2","40","21","Logitech");
+Query OK, 1 row affected (0.008 sec)
+
+<ion,pasillo,estante,altura,precio,tipoDeIVA,proveedor) values (null, "Mx-Vert","Raton Logitech Mx-Vertical", "1","3","3","110","21","Logitech");
+Query OK, 1 row affected (0.002 sec)
+
+<ion,pasillo,estante,altura,precio,tipoDeIVA,proveedor) values (null, "LG-G413","Tdo. Logitech G413", "2","1","1","80","21","Logitech");
+Query OK, 1 row affected (0.008 sec)
+
+<ion,pasillo,estante,altura,precio,tipoDeIVA,proveedor) values (null, "LG-GPRO","Tdo. Logitech GPRO", "2","2","2","180","21","Logitech");
+Query OK, 1 row affected (0.008 sec)
+
+<ion,pasillo,estante,altura,precio,tipoDeIVA,proveedor) values (null, "LG-G915","Tdo. Logitech G915", "2","3","3","160","21","Logitech");
+Query OK, 1 row affected (0.008 sec)
+
+MariaDB [miEmpresa]> select * from almacen;
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+| ID | referencia | descripcion                | pasillo | estante | altura | precio | tipoDeIVA | proveedor |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+|  1 | LG-G203    | Raton Logitech G203        |       1 |       1 |      1 |     20 |        21 | Logitech  |
+|  2 | LG-G305    | Raton Logitech G305        |       1 |       2 |      2 |     40 |        21 | Logitech  |
+|  3 | Mx-Vert    | Raton Logitech Mx-Vertical |       1 |       3 |      3 |    110 |        21 | Logitech  |
+|  4 | LG-G413    | Tdo. Logitech G413         |       2 |       1 |      1 |     80 |        21 | Logitech  |
+|  5 | LG-GPRO    | Tdo. Logitech GPRO         |       2 |       2 |      2 |    180 |        21 | Logitech  |
+|  6 | LG-G915    | Tdo. Logitech G915         |       2 |       3 |      3 |    160 |        21 | Logitech  |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+6 rows in set (0.001 sec)
+----
+
+MariaDB [miEmpresa]> MariaDB [miEmpresa]> select * from almacen where pasillo="1";
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+| ID | referencia | descripcion                | pasillo | estante | altura | precio | tipoDeIVA | proveedor |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+|  1 | LG-G203    | Raton Logitech G203        |       1 |       1 |      1 |     20 |        21 | Logitech  |
+|  2 | LG-G305    | Raton Logitech G305        |       1 |       2 |      2 |     40 |        21 | Logitech  |
+|  3 | Mx-Vert    | Raton Logitech Mx-Vertical |       1 |       3 |      3 |    110 |        21 | Logitech  |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+3 rows in set (0.007 sec)
+----
+MariaDB [miEmpresa]> select * from almacen where proveedor="Logitech";
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+| ID | referencia | descripcion                | pasillo | estante | altura | precio | tipoDeIVA | proveedor |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+|  1 | LG-G203    | Raton Logitech G203        |       1 |       1 |      1 |     20 |        21 | Logitech  |
+|  2 | LG-G305    | Raton Logitech G305        |       1 |       2 |      2 |     40 |        21 | Logitech  |
+|  3 | Mx-Vert    | Raton Logitech Mx-Vertical |       1 |       3 |      3 |    110 |        21 | Logitech  |
+|  4 | LG-G413    | Tdo. Logitech G413         |       2 |       1 |      1 |     80 |        21 | Logitech  |
+|  5 | LG-GPRO    | Tdo. Logitech GPRO         |       2 |       2 |      2 |    180 |        21 | Logitech  |
+|  6 | LG-G915    | Tdo. Logitech G915         |       2 |       3 |      3 |    160 |        21 | Logitech  |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+6 rows in set (0.001 sec)
+----
+MariaDB [miEmpresa]> update almacen set altura="4" where altura="3";
+Query OK, 2 rows affected (0.009 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+----
+MariaDB [miEmpresa]> update almacen set pasillo="4",estante="1",altura="1" where altura="4";
+Query OK, 2 rows affected (0.009 sec)
+Rows matched: 2  Changed: 2  Warnings: 0
+
+MariaDB [miEmpresa]> select * from almacen;
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+| ID | referencia | descripcion                | pasillo | estante | altura | precio | tipoDeIVA | proveedor |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+|  1 | LG-G203    | Raton Logitech G203        |       1 |       1 |      1 |     20 |        21 | Logitech  |
+|  2 | LG-G305    | Raton Logitech G305        |       1 |       2 |      2 |     40 |        21 | Logitech  |
+|  3 | Mx-Vert    | Raton Logitech Mx-Vertical |       4 |       1 |      1 |    110 |        21 | Logitech  |
+|  4 | LG-G413    | Tdo. Logitech G413         |       2 |       1 |      1 |     80 |        21 | Logitech  |
+|  5 | LG-GPRO    | Tdo. Logitech GPRO         |       2 |       2 |      2 |    180 |        21 | Logitech  |
+|  6 | LG-G915    | Tdo. Logitech G915         |       4 |       1 |      1 |    160 |        21 | Logitech  |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+6 rows in set (0.001 sec)
+----
+NO TENÍA NADA EN EL ESTANTE 3, POR ESO HE ELIMINADO EL ESTANTE 2.
+MariaDB [miEmpresa]> delete from almacen where estante="2";
+Query OK, 2 rows affected (0.010 sec)
+
+MariaDB [miEmpresa]> select * from almacen;
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+| ID | referencia | descripcion                | pasillo | estante | altura | precio | tipoDeIVA | proveedor |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+|  1 | LG-G203    | Raton Logitech G203        |       1 |       1 |      1 |     20 |        21 | Logitech  |
+|  3 | Mx-Vert    | Raton Logitech Mx-Vertical |       4 |       1 |      1 |    110 |        21 | Logitech  |
+|  4 | LG-G413    | Tdo. Logitech G413         |       2 |       1 |      1 |     80 |        21 | Logitech  |
+|  6 | LG-G915    | Tdo. Logitech G915         |       4 |       1 |      1 |    160 |        21 | Logitech  |
++----+------------+----------------------------+---------+---------+--------+--------+-----------+-----------+
+4 rows in set (0.001 sec)
+
