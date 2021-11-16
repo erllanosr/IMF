@@ -7,15 +7,15 @@ public class SioNo {
 	public static void main(String[] args) {
 		// Preguntar al usuario si quiere continuar
 		// ZONA DECLARATIVA
-		Scanner sc = new Scanner(System.in);
-		String respuesta;
-		
+
 		// ZONA EJECUTIVA
-		
-		
-		String texto = "palabra";
-		System.out.println(texto.replace("a", "1"));
+
+		String texto = "Harry Potter";
+		System.out.println(texto.replace("r", "p"));
+		System.out.println(texto.replace("a", "4"));
+		System.out.println(texto.replace("r", "i"));
+		System.out.println(texto.replace("H", "9"));
+		System.out.println(texto.substring(5, 7));
 	}
-		
 
 }
