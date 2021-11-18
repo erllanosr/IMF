@@ -210,6 +210,5 @@ public class Caso3 {
 		System.out.println(anio + ", " + mesEnPalabra + " -- " + diaEnPalabra);
 
 	}
-	// +200 líneas de código jaja
 
 }

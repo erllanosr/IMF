@@ -1,0 +1,9 @@
+1. Ficheros
+2. Seguridad
+3. Impresoras
+4. Portal Corporativo/Publicación aplicaciones
+5. Red
+6. Correo
+7. Cloud aplicación.
+8. Bases de Datos.
+
