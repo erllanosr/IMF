@@ -4,6 +4,36 @@ Primera FORMA NORMAL
 -Que hayan valores atómicos.
 SEGUNDA FORMA NORMAL
 -Tiene que cumplir TODO lo de la PRIMERA FORMA NORMAL.
-+Todo atributo que no es clave principal depende funcionalmente de forma completa de ella.
+-Todo atributo que no es clave principal depende funcionalmente de forma completa de ella.
+
+TERCERA FORMA NORMAL
+-Cada atributo que no sea parte de la clave primaria no depende transitivamente de la clave primaria.
+-Comprobar si un atributo que no es clave primaria depende de otro atributo que tampoco es clave primaria.
+----
+CHECKLIST PAGINA 74 BASES DE DATOS.
+1FN.
+.Que hayan clases primarias
+.Que no hayan valores nulos.
+.Que hayan valores atómicos.
+2FN
+.Dependencia de la clave primaria.
+3FN
+.No Transitiva
+
+
+CLAVE PRIMARIA / PK (SIMPLE)
+.Que sea única
+.Que no sea nula.
+
+CLAVE PRIMARIA / PK (COMPUESTA)
+.
+
+
+----
+4TA FORMA NORMAL
+Valores multievaluados.
+5TA FORMA NORMAL
+Prácticamente no se usa.
+Si cumple a 4ta forma normal.
 
 

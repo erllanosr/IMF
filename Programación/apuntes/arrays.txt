@@ -1,0 +1,11 @@
+ARRAYS
+Junta elementos que son del mismo tipo de datos. Int, float, boolean, etc.
+Un String es un conjunto de chars. 
+
+Array:
+edades 20, 21, 22, 23, 24.
+Pueden haber arrays dentro de otros arrays.
+int [] edades = {1, 2, 3, 4, 5};
+for (int edad : edades){
+	syso(edad);
+}
