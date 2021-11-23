@@ -1,0 +1,6 @@
+VALIDAR GMAIL.
+Tiene:
+Un arroba.
+2 caracteres mínimo antes del arroba.
+Termina en "." dos caracteres o tres. .es o .com
+

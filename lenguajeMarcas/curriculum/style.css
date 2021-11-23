@@ -1,0 +1,47 @@
+* {
+  font-family: Helvetica;
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+h1 {
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  display: inline-block;
+  padding-left: 800px;
+  color: #8be9fd;
+}
+
+img {
+  position: relative;
+  float: right;
+  width: 100px;
+  padding: 20px;
+  display: block;
+}
+
+hr {
+  clear: both;
+  color: #ff79c6;
+}
+
+h2 {
+  color: #ffb86c;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #50fa7b;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
+
+.derechos {
+  color: #6272a4;
+}
