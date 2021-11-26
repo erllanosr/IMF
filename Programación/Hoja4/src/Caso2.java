@@ -19,7 +19,7 @@ public class Caso2 {
 
 		// Mezclar las cadenas
 
-		System.out.println(cadena1.concat(cadena2));
+		System.out.println(cadena1.);
 	}
 
 }

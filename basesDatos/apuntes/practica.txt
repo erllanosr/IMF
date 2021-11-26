@@ -1,0 +1,1 @@
+1. Instalar Filezilla y configurar. En Ubuntu, alojar una página.

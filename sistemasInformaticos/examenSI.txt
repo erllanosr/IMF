@@ -1,0 +1,12 @@
+Que es un servidor DNS
+Es un sistema informático que ejecuta un software de servidor de DNS. Le preguntan al servidor un dominio y las ips a las que están asociadas dichos dominios.
+Qué es una IP y para qué sirve¿?
+Una ip es un identificador que está construido por números, lo que hace es identificar a una tarjeta de red en una red.
+Pasos para crear una máquina virtual.
+Añadir la ISO.
+Elegir la capacidad de RAM, Disco Duro, etc.
+
+Qué es una mac address
+Es una dirección que tiene la tarjeta de RED escrita en ella, en hexadecimal, y que sirve para identificar a esa tarjeta dentro de un conjunto de tarjetas bajo el protoclo TCP/IP a nivel de red.
+Para qué sirven los grupos de usuarios.
+Un grupo de usuarios en informática se utiliza para darle los permisos y credenciales, a todos los usuarios que estén en el grupo. 

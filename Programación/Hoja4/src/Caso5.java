@@ -27,23 +27,26 @@ public class Caso5 {
 		contraseniaDos = sc.next();
 
 		// QUE AMBAS SEAN IGUALES
-		if (contraseniaUno == contraseniaDos) {
+		if (contraseniaDos == contraseniaUno) {
 			System.out.println("Las contraseñas COINCIDEN.");
 		} else {
 			System.out.println("Las contraseñas NO COINCIDEN.");
 		}
 
-		/*
-		 * do { System.out.println("Escribe tu contraseña:"); contraseniaUno =
-		 * sc.next();
-		 * 
-		 * if (contraseniaUno.length() >= 8 && contraseniaUno.length() <= 15) {
-		 * System.out.println("Bien."); } else { System.out.println(
-		 * "Tu contraseña tiene menos de 8 caracateres o más de 15. Vuelve a escribir tu contraseña:"
-		 * ); contraseniaUno = sc.next(); }
-		 * 
-		 * } while (contraseniaUno!=contraseniaDos);
-		 */
+		/*do {
+			System.out.println("Escribe tu contraseña:");
+			contraseniaUno = sc.next();
+
+			if (contraseniaUno.length() >= 8 && contraseniaUno.length() <= 15) {
+				System.out.println("Bien.");
+			} else {
+				System.out.println(
+						"Tu contraseña tiene menos de 8 caracateres o más de 15. Vuelve a escribir tu contraseña:");
+				contraseniaUno = sc.next();
+			}
+
+		} while (contraseniaUno != contraseniaDos);
+		*/
 		// Comprueba la longitud de la contraseña.
 
 	}

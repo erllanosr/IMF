@@ -8,23 +8,32 @@ public class Caso1 {
 		// Zona Declarativa
 		Scanner sc = new Scanner(System.in);
 		int numUsuario;
-		int numAnterior;
+		int numAnterior=0;
+		boolean parar=false;
 
 		// Zona Ejecutiva
-		
-		do {
-			System.out.println("Introduce números, de uno en uno:");
+		while (!parar) {
+			System.out.println("Introduce un número:");
 			numUsuario = sc.nextInt();
-			numAnterior = numUsuario; // Siempre valen lo mismo. No puede ser.
-			if (numUsuario > numAnterior) {
-				System.out.println("Sigue introduciendo números, de uno en uno.");
-			} else {
-				System.out.println("PARA.");
+			if (numUsuario>=numAnterior) {
+				numAnterior=numUsuario;
+			}else {
+				parar=true;
 			}
-		} while (numAnterior > 0);
-
-		System.out.println(numAnterior);
-		System.out.println(numUsuario);
+		}
+		/*do {
+			System.out.println("Introduce números, de uno en uno.");
+			numUsuario = sc.nextInt();
+			if (numUsuario>numAnterior) {
+				System.out.println("Sigue introduciendo números:");
+			}else if (numAnterior<numUsuario) {
+				System.out.println("Para");
+			}
+			
+		}while(true); */
+		
+		
 	}
+	
 
 }

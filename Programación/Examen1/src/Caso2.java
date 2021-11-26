@@ -11,10 +11,11 @@ public class Caso2 {
 		Scanner sc = new Scanner(System.in);
 		int peso;
 		int pesoIdeal;
-		float pesoPorSemana;
+		float pesoPorSemana = 0;
 		int pesoBajar = 0;
 		int pesoSubir;
 		int semanasUsuario;
+		int numeroSemana;
 
 		// ZONA EJECUTIVA
 		System.out.println("Programa para saber los kg a subir o bajar depende las semanas introducidas.");
@@ -29,15 +30,27 @@ public class Caso2 {
 			if (pesoIdeal > peso) { // Si el usuario quiere subir de peso.
 				pesoSubir = pesoIdeal - peso;
 				pesoPorSemana = pesoSubir / semanasUsuario;
-				System.out.print("Tendrás que ganar " + pesoPorSemana + "kg por semana.");
+				System.out.print("Tendrás que subir " + pesoPorSemana + "kg por semana.");
+				System.out.println();
+				//Para mostrar kg por cada semana.
+				for (int i=1;i<=semanasUsuario;i++) {
+					System.out.println("Tendrás que subir " + pesoPorSemana + "kg en la semana " + i);
+					System.out.println("Pesarás " + (pesoPorSemana + peso) + "kg en la semana " + i);
+				}
 			} else if (pesoIdeal < peso) { // Si el usuario quiere bajar de peso.
 				pesoBajar = pesoIdeal - peso;
 				pesoPorSemana = pesoBajar / semanasUsuario;
 				System.out.print("Tendrás que perder " + pesoPorSemana + "kg por semana.");
+				System.out.println();
+				for (int i=1;i<=semanasUsuario;i++) {
+					System.out.println("Tendrás que perder " + pesoPorSemana + "kg en la semana " + i);
+				}
+				
 			}
-
+			// AÑADIDOS LOS FOR PARA QUE MUESTRE "KILOS POR SEMANA".
+			
 		} while (pesoIdeal < peso && pesoIdeal > peso);
-
+		
 	}
 
 }

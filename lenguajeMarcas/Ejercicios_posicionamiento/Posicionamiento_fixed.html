@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html >
+<html>
+	<head>
+		<title>Comportamiento cajas adyacentes</title>
+		<style type="text/css">
+			* { font-family: arial; margin: 0 }
+			h1 { text-align: center; }
+			body > p { text-align: justify; margin: 0 40px; }
+			#principal { width: 800px; height: 800px; background-color: silver; margin:auto; position: relative; }
+			div p { padding: 5px }
+			img { margin: 10px; height: 200px; }
+			.desplazar { position:fixed; top: 250px; left: 250px; }
+		</style>
+	</head>
+	<body>
+		<br/>
+		<br/>
+		<h1>Comportamiento cajas adyacentes</h1>
+		<br/>
+		<br/>
+		<p>Tenemos tres imágenes, a la segunda le hemos aplicado la propiedad "position: static", la imágen siguiente respeta el hueco dejado por la imagen desplazada.</p>
+		<p>El desplazamiento se mide desde la ventana del navegador.</p>
+		<br/>
+		<br/>
+		<div id="principal">
+			<img src="./objetos/quijote1.png" alt="quijote 1" title="quijote 1"/>
+			<img class="desplazar" src="./objetos/quijote2.png" alt="quijote 2" title="quijote 2"/>
+			<img src="./objetos/quijote3.png" alt="quijote 3" title="quijote 3"/>
+		</div>
+	</body>
+</html>

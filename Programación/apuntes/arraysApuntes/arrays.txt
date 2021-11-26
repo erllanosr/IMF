@@ -29,3 +29,31 @@ Cómo se declara vacío y/o con contenido, caras cubo rubik.
 
 IMPORTAR LA LIBREIA: import java.util.Arrays;
 
+CÓMO DECLARAR ARRAYS
+datos 0 0 0 0
+C (Crear)--> int [] datos = {0,0,0,0}; --> int [] datos = new int {[4]};
+
+Cómo LEER los datos de una posición en un array:
+R (Leer) --> datos [1];  syso(datos[1]); numero=datos[1];
+
+Cómo MODIFICAR el contenido de una de las posiciones del array.
+U --> datos [2] = 8;
+
+Cómo BORRAR el contenido de un array.
+D --> datos [2] 0; NO SE PUEDE ELIMINAR UNA POSICIÓN, SE TENDRÍA QUE MODIFICAR A 0. Seguirán las 4 posiciones.
+
+RECORRIDOS 
+datos [1 2 3 4]
+MANERAS PARA MOSTRAR TODO EL CONTENIDO, VER EL ARRAY COMPLETO. 
+syso(Arrays.toString(datos)); --> Esto muestra por ocnsola [1,2,3,4].
+
+FOR
+for (int i=0; i<datos.length;i++) {
+	syso(datos[i]);
+}
+
+FOR EACH:
+for (int valor: datos){
+	syso(valor)
+}
+

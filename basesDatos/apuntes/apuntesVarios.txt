@@ -1,0 +1,16 @@
+Desde Ubuntu va hacia el Web Server, el Web Server envía los ficheros a la CPU, la CPU devuelve el fichero como HTML, CSS y JS y desde Web Server se envía hasta el navegador.
+
+Web:
+-> componentes Estáticos: Su contenido no varía, directamente desde el Servidor Web hasta el Navegador. El navegador no cambia nada, recibe, lo lee y lo interpreta tal cual.
+.-Imagen
+.-Video
+.-Fichero HTML,CSS, JS
+
+-> componentes Dinámicos: Es un fichero que el servidor Web no puede mandarlo directamente al navegador. Los contenidos Dinámicos llevan código de algún tipo de lenguaje. Antes de enviarlo (al navegador), el Web Server, lo ejecuta y el resultado de esa ejecución es un contenido estático.
+
+FTP: Se encarga de mover ficheros.
+Cuando queremos probar un sitio web, nos conectamos al servidor FTP que está en "Ubuntu" por ejemplo, y del FTP se envía al Web Server. El FTP muestra unas carpetas con el Web Server.
+
+Los Sitios Web están en carpetas, y dentro de esas carpetas están en Ficheros. EL Servidor Web tiene alojadas las páginas web en carpetas. Cuando yo através del cliente HTTPS (navegador) hace una petición al Web Server, el Web Server elige un fichero, lo devuelve y se muestra en el navegador.
+
+Servidor FTP: Cuando un cliente le envía al FTP un fichero, el FTP lo aloja en el Web Server para que cualquier usuario haga una petición al Web Server y el Web Server envíe la petición. 

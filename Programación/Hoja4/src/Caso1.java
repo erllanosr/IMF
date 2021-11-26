@@ -14,14 +14,12 @@ public class Caso1 {
 		System.out.println("Escribe tu correo para validarlo:");
 		correo = sc.next();
 		
-		if (correo.equals("@")) {
-			System.out.println("laksjda");
-		} else {
-			System.out.println("Tlkjsaldjsa");
-		}
+		if (correo.contains("@")) {
+			
+		} else if (correo.contains(correo)) {
+			System.out.println("Error, te falta un @.");
+		} 
 		
-		
-
 	}
 
 }
