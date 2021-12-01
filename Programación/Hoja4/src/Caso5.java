@@ -15,6 +15,9 @@ public class Caso5 {
 		Scanner sc = new Scanner(System.in);
 		String contraseniaUno;
 		String contraseniaDos;
+		int ascii = 0;
+		int asciiLetras;
+		int asciiFinal = 0;
 
 		// Zona Ejecutiva
 		// Podría hacerlo con Do.
@@ -27,27 +30,30 @@ public class Caso5 {
 		contraseniaDos = sc.next();
 
 		// QUE AMBAS SEAN IGUALES
-		if (contraseniaDos == contraseniaUno) {
+		if (contraseniaUno.equals(contraseniaDos)) {
 			System.out.println("Las contraseñas COINCIDEN.");
 		} else {
 			System.out.println("Las contraseñas NO COINCIDEN.");
 		}
 
-		/*do {
-			System.out.println("Escribe tu contraseña:");
-			contraseniaUno = sc.next();
-
-			if (contraseniaUno.length() >= 8 && contraseniaUno.length() <= 15) {
-				System.out.println("Bien.");
-			} else {
-				System.out.println(
-						"Tu contraseña tiene menos de 8 caracateres o más de 15. Vuelve a escribir tu contraseña:");
-				contraseniaUno = sc.next();
-			}
-
-		} while (contraseniaUno != contraseniaDos);
-		*/
 		// Comprueba la longitud de la contraseña.
+		if (contraseniaUno.length() >= 8 && contraseniaUno.length() <= 15) {
+			System.out.println("Bien.");
+		} else {
+			System.out.println(
+					"Tu contraseña tiene menos de 8 caracateres o más de 15. Vuelve a escribir tu contraseña:");
+		}
+
+		// Que no hayan caracteres raros al inicio o al final.
+		ascii = (int) contraseniaUno.charAt(0);
+		if (ascii >= 32 || ascii <= 47 || ascii >= 58 || ascii <= 64) {
+			System.out.println("Error, la contraseña no debe empezar o terminar por un caracter.");
+		}
+		// Que no hayan caracteres raros al final.
+		asciiFinal = (char) contraseniaUno.charAt(ascii);
+		System.out.println(asciiFinal);
+
+		//
 
 	}
 

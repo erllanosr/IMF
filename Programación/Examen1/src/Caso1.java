@@ -7,32 +7,26 @@ public class Caso1 {
 		// el anterior.
 		// Zona Declarativa
 		Scanner sc = new Scanner(System.in);
-		int numUsuario;
-		int numAnterior=0;
-		boolean parar=false;
+		int num;
+		int acumulado = 0;
 
-		// Zona Ejecutiva
-		while (!parar) {
-			System.out.println("Introduce un número:");
-			numUsuario = sc.nextInt();
-			if (numUsuario>=numAnterior) {
-				numAnterior=numUsuario;
-			}else {
-				parar=true;
+		// ZONA EJECUTIVA
+
+		System.out.println("Introduce un número:");
+		num = sc.nextInt();
+
+		do {
+
+			if (num >= acumulado) {
+				acumulado = num;
+				System.out.println("Introduce otro:");
+				num = sc.nextInt();
 			}
-		}
-		/*do {
-			System.out.println("Introduce números, de uno en uno.");
-			numUsuario = sc.nextInt();
-			if (numUsuario>numAnterior) {
-				System.out.println("Sigue introduciendo números:");
-			}else if (numAnterior<numUsuario) {
-				System.out.println("Para");
-			}
-			
-		}while(true); */
-		
-		
+
+		} while (num >= acumulado);
+
+		System.out.println("FIN DEL PROGRAMA");
+
 	}
 	
 

@@ -1,0 +1,7 @@
+TEORÍA
+-- 10 preguntas tipo test.
+-- Pregunta de Desarrollo.
+
+PRÁCTICA
+-- Actividad, similar a bb.
+-- Actividades de clase.

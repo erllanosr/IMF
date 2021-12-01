@@ -10,3 +10,18 @@ Qué es una mac address
 Es una dirección que tiene la tarjeta de RED escrita en ella, en hexadecimal, y que sirve para identificar a esa tarjeta dentro de un conjunto de tarjetas bajo el protoclo TCP/IP a nivel de red.
 Para qué sirven los grupos de usuarios.
 Un grupo de usuarios en informática se utiliza para darle los permisos y credenciales, a todos los usuarios que estén en el grupo. 
+
+Servidor cliente, sirve par acualquier servidor web. Un servidor DNS es un servidor informático que trabaja con un servidor que responde a las peticiones DNS, una petición DNS es: dado un dominio, dame una ip.
+
+QUÉ ES UNA RED
+
+CLIENTE HTTP HACE PETICIÓN AL SERVIDOR HTTP, EL SERVIDOR HTTP HACE PETICIÓN AL SQL, EL SQL AL SERVIDOR HTTP Y EL SERVIDOR HTTP AL CLIENTE HTTP.
+Es un navegador.
+
+Clasificación de los sistemas operativos.
+
+Tipos de Software, tipos de licencia.
+
+Configurar máquina virtual, ISO, RAM, ETC.
+
+Cuáles son los nodos, nat, nat network, adaptador, puente, solo anfitrión.
