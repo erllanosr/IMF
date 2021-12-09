@@ -27,10 +27,13 @@ int [][] tabla =
 
 Cómo se declara vacío y/o con contenido, caras cubo rubik.
 
-IMPORTAR LA LIBREIA: import java.util.Arrays;
+IMPORTAR LA LIBRERIA: import java.util.Arrays;
 
 CÓMO DECLARAR ARRAYS
 datos 0 0 0 0
+
+CRUD
+Cómo CREAR los datos de una posición en un array.
 C (Crear)--> int [] datos = {0,0,0,0}; --> int [] datos = new int {[4]};
 
 Cómo LEER los datos de una posición en un array:
@@ -45,7 +48,7 @@ D --> datos [2] 0; NO SE PUEDE ELIMINAR UNA POSICIÓN, SE TENDRÍA QUE MODIFICAR
 RECORRIDOS 
 datos [1 2 3 4]
 MANERAS PARA MOSTRAR TODO EL CONTENIDO, VER EL ARRAY COMPLETO. 
-syso(Arrays.toString(datos)); --> Esto muestra por ocnsola [1,2,3,4].
+syso(Arrays.toString(datos)); --> Esto muestra por consola [1,2,3,4].
 
 FOR
 for (int i=0; i<datos.length;i++) {
@@ -53,7 +56,19 @@ for (int i=0; i<datos.length;i++) {
 }
 
 FOR EACH:
-for (int valor: datos){
+for (int valorCualquiera: datos){
 	syso(valor)
 }
+
+¿Cuándo usar to.String en Arrays¿?
+Importar la librería: import java.util.Arrays;
+
+int [] numeros = {0, 1, 2, 3};
+syso(Arrays.toString(numeros)); 
+[0, 1, 2]
+
+AÑADIR UN ELEMENTO
+numeros [2][1] = 3; PRIMERO FILAS LUEGO COLUMNAS, ALMACENAR EL 3 EN LA FILA 2 COLUMNA 1. 
+
+AÑADIR RANDOM.
 

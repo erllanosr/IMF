@@ -1,0 +1,77 @@
+Examen Sistemas InformÃ¡ticos
+Consta de 10 preguntas tipo test y 5 preguntas elaboradas.
+
+
+1. Â¿QuÃ© es el dominio en Windows Server?
+Conjunto de objetos de tipo equipo, usuario, entre otras que comparten una base de datos de directorio común.
+2. Â¿QuÃ© es un dominio de internet?
+Es un nombre asociado a una IP. En lugar de escribir números escribiríamos "google.com" por ejemplo. Más fácil de recordar.
+Es una palabra que define una entidad dentro de internet
+Dominios de primer nivel (.com,.es, .org)
+Dominios de segundo nivel(.imf.com)personas o entidades pÃºblicas o privadas
+Dominios de tercer nivel (profesores.imf.com, alumnos.imf.com)propietario del segundo nivel
+3. Qué es el DNS? 
+Es un sistema informÃ¡tico que está  conectado a internet y que tiene un software instalado y ejecutandose en una maquina que trabaja y respondea las peticiones del protocolo DNS, ese servidor recibe peticiones de otras maquinas de la red solicitandole informacion a un dominio.
+Los sistemas de nombres de dominio son aplicaciones que utilizan una base de datos para registrar los dominios asignados a una IP.
+
+
+4. Â¿Que es la ram?
+Memoria principal de un dispositivo, donde se almacenan de forma temporal datos de los programas que se están utilizando. Se pueden efectuar operaciones de escritura y lectura.
+5. Â¿Que es un bus?
+Permite la conexión lógica entre los subsistemas de un ordenador.
+6. Â¿Que es el factor forma?
+Son los estándares que definen algunas características físicas de la placa base.
+7. Â¿Que es el chipset?
+8. Â¿Que es la placa base?
+9. Â¿Que es un servidor web?
+Es un software que forma parte del servidor y tiene como misión devolver las peticiones de los usuarios.
+
+10. Â¿Que es un dominio de Windows?
+Es una red creada de ordenadores donde todos los equipos, cuentas de usuario, impresoras, etc. Se encuentran dentro de una base de datos central.
+
+11. Â¿Que es un firewall?
+Es un programa informático que controla el acceso de una computadora a la red por motivos de seguridad.
+
+12. Â¿Que es una IP y para que sirve?
+Es como la mátricula de un coche o el DNI de una persona. Es un código que va a identificar a cada usuario que esté navegando por cualquier red. Es la forma que tiene internet de saber quién eres.
+
+13. Â¿Cuales son los parÃ¡metros que tengo que aportar para crear una mÃ¡quina virtual?
+Nombre, tipo de maquina, 
+14. Â¿Para que sirven los grupos de usuario?
+Se utiliza para dar permisos y credenciales a los usuarios de forma grupal, heredando los permisos de uno a otro, es una forma de agrupar los credenciales de forma agrupada.
+15. Â¿Que es la Mac adress?
+Es una direccion que tiene la tarjeta de red escrita en ella y sirve para identificar esa tarjeta 
+16. Â¿QuÃ© es un protocolo y para que sirve?
+Son reglas y procedimientos usados por los ordenadores para comunicarse entre ellos a travÃ©s de una red. Existen diefrentes niveles de protocolos
+17. Arquitectura de von Neumann
+18. Â¿Que es un sistema informatico y que partes lo forman?
+Puede definirse como un conjunto de partes interrelacionadas. Un sistema informÃ¡tico emplea un ordenador que usa dispositivos programables para capturar, almacenar y procesar datos. Componentes fÃ­sicos (hardware), componentes lÃ³gicos (software), un componente humano.
+19. Â¿Para que sirven los componentes internos de un sistema informÃ¡tico?
+20. Â¿QUÃ© es una red? 
+Es un sistema de interconexiÃ³n entre equipos que permite compartir recursos e informaciÃ³n.
+21. Arquitectura cliente/servidor
+Es un software o sistema informÃ¡tico que espera peticiones de otro sistema informÃ¡tico que permite compartir sus perifÃ©ricos, su informaciÃ³n y el procesamiento del software que lleva dentro con otro ordenadores
+Un cliente http pide informacion a un servidor http que a su vez le pide esta informacion a un servidor de bases de datos SQL, este se la proporciona al servidor y finalmente el servidor se la proporcion al cliente que es quien ha pedido esa informacion inicialmente.
+22. Componentes de una red infromÃ¡tica (leer)
+Servidor, cableado, periféricos, tarjetas de interfaz de red.
+23. Estructura de un sistema informÃ¡tico y sus funciones (entra en e examen)
+Se podría definir como un conjunto determinado de reglas, normas y procedimientos que especifican las interrelaciones que deben existir entre los componentes de un sistema informático y las características que deben cumplir cada uno de estos procedimientos.
+
+23. Tipos de software
+24. Tipos de licencia
+25. Gestion de sistemas operativos en un ordenador (entra en el examen)
+26. Los modos de conexion a la red de una mÃ¡quina virtual. (entra en el examen; maquina virtualbox)
+Modo bridge. Es la opción por defecto de las máquinas virtuales, es la forma más sencilla de otorgar acceso a la red de una máquina virtual.
+Modo NAT
+Modo RED INTERNA: Es una forma de conectar varias máquinas virtuales entre ellas, creando una red privada. Las máquinas no podrán comunicarse con la máquina anfitriona ni viceversa.
+Modo HOST ONLY
+Modo NO CONECTADO
+27. QUe es un directorio, que es un permiso, que es un comando.
+Directorio: es una carpeta virtual en la que podemos almacenar archivos.
+Permiso: el nivel de acceso que tienen los usuarios como por ejemplo a un archivo, un directorio, y podrán leer o ejecutar o leer y ejecutar.k
+28. Software de un sistema (1.1, 1.4, 1.5)
+29. Sistemas Operativos (2.2, 2.3)
+30. GestiÃ³n de la memoria (info antes del 4.1)
+31. GestiÃ³n de entrada/ salida (5.1)
+32. GestiÃ³n de discos (6.1, 6.2, 6.3)
+

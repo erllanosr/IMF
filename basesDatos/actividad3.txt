@@ -1,0 +1,194 @@
+MariaDB [(none)]> create database Almacen2;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| Almacen2           |
+| information_schema |
+| miEmpresa          |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+7 rows in set (0.008 sec)
+
+MariaDB [(none)]> use Almacen2;
+Database changed
+MariaDB [Almacen2]> create table compras (ID INT PRIMARY KEY AUTO_INCREMENT, referencia VARCHAR (20), nombre VARCHAR (30), precio INT, tipoDeIVA INT);
+Query OK, 0 rows affected (0.015 sec)
+
+MariaDB [Almacen2]> create table ventas (ID INT PRIMARY KEY AUTO_INCREMENT, referencia VARCHAR (20), nombre VARCHAR (30), precio INT, tipoDeIVA INT);
+Query OK, 0 rows affected (0.013 sec)
+
+MariaDB [Almacen2]> create table stock (ID INT PRIMARY KEY AUTO_INCREMENT, referencia VARCHAR (20), nombre VARCHAR (30), precio INT, tipoDeIVA INT);
+Query OK, 0 rows affected (0.016 sec)
+
+MariaDB [Almacen2]> show tables;
++--------------------+
+| Tables_in_Almacen2 |
++--------------------+
+| compras            |
+| stock              |
+| ventas             |
++--------------------+
+3 rows in set (0.001 sec)
+
+MariaDB [Almacen2]> ALTER TABLE compras ADD cantidad INT;
+Query OK, 0 rows affected (0.012 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [Almacen2]> ALTER TABLE ventas ADD cantidad INT;
+Query OK, 0 rows affected (0.010 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [Almacen2]> ALTER TABLE stock ADD cantidad INT;
+Query OK, 0 rows affected (0.011 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [Almacen2]> describe compras;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| ID         | int(11)     | NO   | PRI | NULL    | auto_increment |
+| referencia | varchar(20) | YES  |     | NULL    |                |
+| nombre     | varchar(30) | YES  |     | NULL    |                |
+| precio     | int(11)     | YES  |     | NULL    |                |
+| tipoDeIVA  | int(11)     | YES  |     | NULL    |                |
+| cantidad   | int(11)     | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+6 rows in set (0.008 sec)
+
+MariaDB [Almacen2]> ALTER TABLE compras CHANGE precio 'Precio' INT;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Precio' INT' at line 1
+MariaDB [Almacen2]> ALTER TABLE compras CHANGE precio Precio INT;
+Query OK, 0 rows affected (0.008 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [Almacen2]> describe compras;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| ID         | int(11)     | NO   | PRI | NULL    | auto_increment |
+| referencia | varchar(20) | YES  |     | NULL    |                |
+| nombre     | varchar(30) | YES  |     | NULL    |                |
+| Precio     | int(11)     | YES  |     | NULL    |                |
+| tipoDeIVA  | int(11)     | YES  |     | NULL    |                |
+| cantidad   | int(11)     | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+6 rows in set (0.001 sec)
+
+MariaDB [Almacen2]> ALTER TABLE compras CHANGE nombre Nombre VARCHAR (40);
+Query OK, 0 rows affected (0.010 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [Almacen2]> describe compras;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| ID         | int(11)     | NO   | PRI | NULL    | auto_increment |
+| referencia | varchar(20) | YES  |     | NULL    |                |
+| Nombre     | varchar(40) | YES  |     | NULL    |                |
+| Precio     | int(11)     | YES  |     | NULL    |                |
+| tipoDeIVA  | int(11)     | YES  |     | NULL    |                |
+| cantidad   | int(11)     | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+6 rows in set (0.001 sec)
+
+MariaDB [Almacen2]> create index nombreIndex ON compras (nombre);
+Query OK, 0 rows affected (0.015 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [Almacen2]> describe compras;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| ID         | int(11)     | NO   | PRI | NULL    | auto_increment |
+| referencia | varchar(20) | YES  |     | NULL    |                |
+| Nombre     | varchar(40) | YES  | MUL | NULL    |                |
+| Precio     | int(11)     | YES  |     | NULL    |                |
+| tipoDeIVA  | int(11)     | YES  |     | NULL    |                |
+| cantidad   | int(11)     | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+6 rows in set (0.001 sec)
+
+MariaDB [Almacen2]> ALTER TABLE compras RENAME TO Adquisiciones;
+Query OK, 0 rows affected (0.015 sec)
+
+MariaDB [Almacen2]> show tables;
++--------------------+
+| Tables_in_Almacen2 |
++--------------------+
+| Adquisiciones      |
+| stock              |
+| ventas             |
++--------------------+
+3 rows in set (0.001 sec)
+
+MariaDB [Almacen2]> DROP INDEX nombreIndex on Nombre;
+ERROR 1146 (42S02): Table 'Almacen2.Nombre' doesn't exist
+MariaDB [Almacen2]> DROP INDEX nombreIndex on Adquisiciones;
+Query OK, 0 rows affected (0.013 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [Almacen2]> describe Adquisiciones;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| ID         | int(11)     | NO   | PRI | NULL    | auto_increment |
+| referencia | varchar(20) | YES  |     | NULL    |                |
+| Nombre     | varchar(40) | YES  |     | NULL    |                |
+| Precio     | int(11)     | YES  |     | NULL    |                |
+| tipoDeIVA  | int(11)     | YES  |     | NULL    |                |
+| cantidad   | int(11)     | YES  |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+6 rows in set (0.001 sec)
+
+MariaDB [Almacen2]> drop table Adquisiones, ventas, stock;
+ERROR 1051 (42S02): Unknown table 'Almacen2.Adquisiones'
+MariaDB [Almacen2]> drop table Adquisiciones, ventas, stock;
+ERROR 1051 (42S02): Unknown table 'Almacen2.ventas,Almacen2.stock'
+MariaDB [Almacen2]> drop table Adquisiciones, stock, ventas;
+ERROR 1051 (42S02): Unknown table 'Almacen2.Adquisiciones,Almacen2.stock,Almacen2.ventas'
+MariaDB [Almacen2]> drop table Adquisiciones;
+ERROR 1051 (42S02): Unknown table 'Almacen2.Adquisiciones'
+MariaDB [Almacen2]> drop tables Adquisiciones;
+ERROR 1051 (42S02): Unknown table 'Almacen2.Adquisiciones'
+MariaDB [Almacen2]> drop tables ventas;
+ERROR 1051 (42S02): Unknown table 'Almacen2.ventas'
+MariaDB [Almacen2]> SET FOREIGN_KEY_CHECKS = 0;
+Query OK, 0 rows affected (0.000 sec)
+
+MariaDB [Almacen2]> drop table Adquisiciones, ventas, stock;
+ERROR 1051 (42S02): Unknown table 'Almacen2.Adquisiciones,Almacen2.ventas,Almacen2.stock'
+MariaDB [Almacen2]> drop table Adquisiciones;
+ERROR 1051 (42S02): Unknown table 'Almacen2.Adquisiciones'
+MariaDB [Almacen2]> show tables;
+Empty set (0.001 sec)
+
+MariaDB [Almacen2]> describe Adquisiciones;
+ERROR 1146 (42S02): Table 'Almacen2.Adquisiciones' doesn't exist
+MariaDB [Almacen2]> describe Adquisiciones;
+ERROR 1146 (42S02): Table 'Almacen2.Adquisiciones' doesn't exist
+MariaDB [Almacen2]> select * from Almacen2;
+ERROR 1146 (42S02): Table 'Almacen2.Almacen2' doesn't exist
+MariaDB [Almacen2]> show tables;
+Empty set (0.001 sec)
+
+MariaDB [Almacen2]> drop database Almacen2;
+Query OK, 0 rows affected, 2 warnings (0.008 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| miEmpresa          |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+6 rows in set (0.001 sec)

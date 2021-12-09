@@ -1,6 +1,0 @@
-APP SEGUIMIENTO DE PAQUETES ONLINE
-Insertar el código de seguimiento
-Ver los estados de los distintos paquetes
-Ver información a tiempo real, si está en preparación, enviado, en reparto,
-empresa de quién lo envía, asignarle un nombre a cada código para distinguir entre bastantes
-paquetes.

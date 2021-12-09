@@ -1,0 +1,17 @@
+
+    CASO 1:
+Generar un array entre 5 y 10 posiciones. Llenarlo con nombres.
+Pedir una letra al usuario.
+Decir cuántas veces sale esa letra, en mayúsculas o minúsculas en todos los nombres del array.
+    CASO 2: 
+Crear un array bidimensional de 3x3.
+Pedir las coordenadas al usuario.
+Poner una X en esa posición. El juego termina cuando hay 3 X en la misma fila, columna o diagonal.
+    CASO 3:
+Generador de nombres orcos.
+Pueden ser del clan de la mano blanca.
+_ _    _  _   _  _  _
+Estos orcos no pueden tener nombres con dos vocales o dos consonantes seguidas.
+Puede ser del clan del ojete de sauron
+_  _  _  _  _  _  _  _
+en este caso el máximo de consonantes seguidas es 2.

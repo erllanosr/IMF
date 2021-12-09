@@ -11,7 +11,8 @@ Es una dirección que tiene la tarjeta de RED escrita en ella, en hexadecimal, y
 Para qué sirven los grupos de usuarios.
 Un grupo de usuarios en informática se utiliza para darle los permisos y credenciales, a todos los usuarios que estén en el grupo. 
 
-Servidor cliente, sirve par acualquier servidor web. Un servidor DNS es un servidor informático que trabaja con un servidor que responde a las peticiones DNS, una petición DNS es: dado un dominio, dame una ip.
+Servidor cliente, sirve par acualquier servidor web. 
+Un servidor DNS es un servidor informático que trabaja con un servidor que responde a las peticiones DNS, una petición DNS es: dado un dominio, dame una ip.
 
 QUÉ ES UNA RED
 
