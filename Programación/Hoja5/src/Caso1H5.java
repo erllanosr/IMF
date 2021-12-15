@@ -7,6 +7,14 @@ public class Caso1H5 {
 		// Pide las notas de cada alumno.
 		// Calcula la media.
 		// Muestra el  curso con mejor media.
+		
+		// Zona Declarativa
+		int numCursos;
+		int nota;
+		int media;
+		int mejorCurso;
+		
+		// Zona Ejecutiva
 
 	}
 

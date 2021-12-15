@@ -2,9 +2,10 @@ Primera FORMA NORMAL
 -Que hayan clases primarias.
 -Que no hayan valores nulos.
 -Que hayan valores atómicos.
+
 SEGUNDA FORMA NORMAL
 -Tiene que cumplir TODO lo de la PRIMERA FORMA NORMAL.
--Todo atributo que no es clave principal depende funcionalmente de forma completa de ella.
+-Todos los atributos que no es clave primaria depende de la clave primaria.
 
 TERCERA FORMA NORMAL
 -Cada atributo que no sea parte de la clave primaria no depende transitivamente de la clave primaria.
