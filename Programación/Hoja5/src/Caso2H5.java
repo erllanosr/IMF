@@ -35,7 +35,7 @@ public class Caso2H5 {
 
 		System.out.println();
 		// ARRAY 2
-		System.out.println("Introduce la cantidad de elementos del array 2:");
+		System.out.print("Introduce la cantidad de elementos del array 2:");
 		numElementos2 = sc.nextInt(); // Elementos del array elegida por el usuario.
 
 		char[] array2 = new char[numElementos2];
@@ -50,7 +50,24 @@ public class Caso2H5 {
 		for (int i = 0; i < numElementos2; i++) {
 			System.out.print(array2[i] + " ");
 		}
+		char[] array3 = new char[array1.length + array2.length];
 
+		int j = 0;
+		for (int i = 0; i < array1.length; i++) {
+			array3[j] = array1[i]; // El primer elemento del array1 en el array 3.
+			j++;
+			array3[j] = array2[i]; // El primer elemento del array2 en el array 3.
+			j++;
+
+		}
+		System.out.println();
+		System.out.print("El resultado final es: ");
+		for (int i = 0; i < array1.length + array2.length; i++) {
+			System.out.print(array3[i]);
+		}
+		// Los arrays si los declaraba en la zona declarativa, me aparecían unos errores
+		// y no podía seguir con el código.
+		// Por esto están declarados durante el código.
 	}
 
 }
