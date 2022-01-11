@@ -15,7 +15,14 @@ Arrays UNIDIMENSIONALES
 int [] numeros = {1, 2, 3, 4, 5};
 char [] abcde = {'a', 'b', 'c', 'd', 'e'};
 String [] clase = {"Persona1" , "Persona2", "Persona3", "Persona4"};
-String [] DAM = new String [22];
+String [] lista = new String [22];
+Agregar:
+lista [0] = "hola";
+VER:
+Syso(lista[1]);
+Modificar:
+lista [1] = "quetal";
+String [] lista;
 
 Arrays BIDIMENSIONALES / como si fuera una tabla
 Cómo se declaran¿?

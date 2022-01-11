@@ -1,0 +1,15 @@
+MÉTODOS:
+Un método se declara dentro de una clase.
+
+PRIVATE: Sólo se puede utilizar dentro de una clase.
+
+PUBLIC: Se puede utilizar dentro de una clase y de otras clases.
+
+PROTECTED.
+
+ESTÁTICO - STATIC. 
+
+VALOR QUE DEVUELVE: VOID, INT, STRING, ARRAY, etc.
+
+NOMBRE.
+
