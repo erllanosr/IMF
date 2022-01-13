@@ -1,0 +1,3 @@
+Servidor empresarial: servidor que se dedica a gestionar los recursos de una empresa.
+Las ips, numeración, está especificamente hechas para ser ips de internet o ips locales. 192.168. local 10.0.0 es local, 80.12.internet.
+Un protocolo, es como una forma de pedir que se haga algo, un conjunto de reglas. 
