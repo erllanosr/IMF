@@ -1,0 +1,36 @@
+Rectángulo 3 partes.
+NOMBRE
+ATRIBUTOS: Propiedades que definen al nombre.
+MÉTODOS: Cosas que sabe hacer o que puede hacer un alumno, cosas que tienen relación con el programa.
+------------------------------------------------------------------
+EJEMPLO:
+NOMBRE: 	ALUMNO
+ATRIBUTOS:	MATRÍCULA, NOMBRE, DNI,
+MÉTODOS: 	Estudiar, Presentar Trabajos, Pagar, Preguntar.
+------------------------------------------------------------------
+EJEMPLO CLASE ASIGNATURA:
+
+NOMBRE: 	Asignatura
+
+ATRIBUTOS:	String nombre
+		Short horas
+		String profesor
+		
+MÉTODOS:	verContenido
+-------------------------------------------------------------------
+NOMBRE:		Práctica
+
+ATRIBUTOS:	int casos
+		String asignatura
+		String fecha
+		
+MÉTODOS:	entregar
+		aplazarla
+		
+Practica pi= new Practica(12, "todas", "15/05/2022");
+Practica Hoja6 = new Practica (4, "Programacion", "20/01/2022");
+
+Hoja6.aplazarla();
+Hoja6.entregarla();
+		
+		
