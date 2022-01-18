@@ -1,0 +1,42 @@
+MARTES 18-01-2022
+1. Crear proyecto. HECHO
+2. Crear clase GESTIÓN. OJO. º_º (CON MAIN). HECHO
+3. Crear CLASE LECTOR. (SIN MAIN). HECHO
+4. Crear ATRIBUTOS. (Debe ser privado y static). Scanner (Es una clase estática).
+5. Inicializar el Atributo. 
+	private static Scanner lector = new lector Scanner(System.in); ...
+No crear constructor porque es estática. 
+6. Crear Métodos - public y static. 
+	Ejemplos sintaxis MÉTODOS.
+
+	public static void mostrarDato(int valor) {
+		syso(valor);
+	}
+
+	public static String leerCadena(String texto){
+		syso(texto);
+		return lector.nextLine();
+	}
+	
+7. Llamar al método desde otra clase. 
+	Lector.mostrarDato(100);
+	syso(lector.leerCadena("Introduce tu nombre"));
+	
+8. SI ME SALE DESCANSO, SI NO, TAMBIÉN.
+
+---------------
+CLASE OBJETOS.
+1. Crear clase GESTIÓN (CON MAIN).
+2. Crear clase ClaseLector(SIN MAIN).
+3. Crear los Atributos, Scanner. (SIN INICIALIZAR).
+4. Crear el Constructor.
+4.1 Revisar parámetros del constructor.
+5. Crear los MÉTODOS: (NO STATIC)
+	ESTO NO, NO DEBE SER STATIC.
+	public static void mostrar() {
+		
+	}
+
+6. Crear OBJETO en la clase GESTIÓN. 
+	ClaseLector lector=new ClaseLector();
+	

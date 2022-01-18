@@ -37,15 +37,7 @@ img {
   max-width: 900px;
   margin: 0 auto;
 }
-#cabecera,
-#menu,
-#lateral,
-#contenido,
-#contenido #principal,
-#contenido #secundario,
-#pie {
-  border: 2px solid #777;
-}
+
 #cabecera {
   clear: both;
   padding: 1em;

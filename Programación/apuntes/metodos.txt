@@ -1,4 +1,5 @@
-MÉTODOS:
+MÉTODOS: reutilizables.
+-Escalabilidad: 
 Un método se declara dentro de una clase.
 
 PRIVATE: Sólo se puede utilizar dentro de una clase.
@@ -7,9 +8,12 @@ PUBLIC: Se puede utilizar dentro de una clase y de otras clases.
 
 PROTECTED.
 
-ESTÁTICO - STATIC. 
+ESTÁTICO - STATIC: no necesito crear un objeto para poder utilizarlo.
 
 VALOR QUE DEVUELVE: VOID, INT, STRING, ARRAY, etc.
 
 NOMBRE.
 
+
+PASO 1: CREAR ATRIBUTOS.
+PASO 2: GENERAR CONSTRUCTOR.
