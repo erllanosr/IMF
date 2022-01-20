@@ -1,9 +1,6 @@
 
 public class MetodosHoja2 {
 
-	public static void main(String[] args) {
-		
-	}
 	// Caso 1 - Pedir número.
 	private static int pedirNumero() {
 		
@@ -11,12 +8,12 @@ public class MetodosHoja2 {
 	}
 	
 	// Caso 1 - Mostrar por pantalla el número introducido en formato texto.
-	private static void mostrarNumeroTexto() {
+	private static void mostrarNumeroTexto(int numero) {
 		
 	}
 	
 	// Caso 1 - Validar número si está entre 1-10.
-	private static void validarNumero() {
+	private static void validarNumero(int numeroInicial, int numeroFinal) {
 		
 	}
 	
@@ -26,13 +23,13 @@ public class MetodosHoja2 {
 	}
 	
 	// Caso 2 - Pedir un número entero.
-	private static int Numero () {
+	private static int Numero() {
 		
 		return 0;
 	}
 	
 	// Caso 2 - Mostrar por pantalla el número introducido.
-	private static void mostrarNumTexto() {
+	private static void mostrarNumTexto(int numero) {
 		
 	}
 	
@@ -106,6 +103,51 @@ public class MetodosHoja2 {
 	return 0;
 	}
 	
-	// Caso 8 - 
+	// Caso 8 - Pedir el precio.
+	private static int pedirPrecio() {
+		
+		return 0;
+	}
+	// Pedir la cantidad comprada.
+	private static byte pedirCantidad() {
+		return 0;
+	}
+	// Cantidad total a pagar.
+	private static void precioTotal() {
+		
+	}
+	// Descuento aplicado.
+	private static void descuentoAplicado() {
+		
+	}
 	
+	// Caso 9 - Pedir número entero.
+	private static int numeroEntero() {
+		return 0;
+	}
+	// Caso 9 - Informar la cantidad de dígitos, sería con void¿?
+	private static int cantidadDigitos() {
+		return 0;
+	}
+	// Caso 9 - Mensaje Error.
+	private static void mnsjError() {
+		
+	}
+	
+	// Caso 10 - Leer secuencia de números positivos
+	private static int secuenciaPositivos() {
+		return 0;
+	}
+	
+	// Caso 10 - Mostrar por pantalla la suma y el producto.
+	private static void suma() {
+		
+	}
+	
+	// Caso 10 - Mostrar por pantalla el producto.
+	private static void producto() {
+		
+	}
+	// Caso 11 - Leer secuencia.
+	private static 
 }

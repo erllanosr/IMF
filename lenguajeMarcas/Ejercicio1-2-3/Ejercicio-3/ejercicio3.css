@@ -1,15 +1,6 @@
-/*Usar la imagen que quieras.
-2. El elemento #cabecera debe tener un relleno de 1em en todos los lados.
-3. El elemento #menu debe tener un relleno de 0.5em en todos los lados y un margen
-inferior de 0.5em.
-4. El resto de elementos (#noticias, #publicidad, #principal, #secundario)
-deben tener 0.5em de relleno en todos sus lados, salvo el elemento #pie, que sólo
-debe tener relleno en la zona superior e inferior.
-5. Los elementos .articulo deben mostrar una separación entre ellos de 1em.
-6. Las imágenes de los artículos muestran un margen de 0.5em en todos sus lados.
-7. El elemento #publicidad está separado 1em de su elemento superior.
-8. El elemento #pie debe tener un margen superior de 1em.
-*/
+body {
+  font: 0.9em/1.4em Arial, Helvetica;
+}
 
 ul,
 ul li {
@@ -46,7 +37,11 @@ img {
   clear: both;
   padding: 0.5em;
   margin-bottom: 0.5em;
+  border-bottom: 1px solid #004c99;
+  background-image: url(../images/fondo_menu2.gif);
+  margin-right: 1em;
 }
+
 #lateral {
   float: left;
   width: 20%;
@@ -68,6 +63,8 @@ img {
   clear: both;
   padding-bottom: 0.5em;
   padding-top: 1em;
+  border-top: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
 }
 #cabecera #logo {
   float: left;
@@ -105,10 +102,65 @@ img {
 
 #publicidad {
   padding-top: 1em;
+  border: 1px dashed #cc6600;
+  background-color: #fff6cd;
 }
 
 #pie {
   margin-top: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+#noticias {
+  border: 1px solid #c5c5c5;
+}
+#secundario {
+  border: 1px solid #cc6600;
+}
+
+#noticias,
+#pie {
+  background-color: #f8f8f8;
+}
+
+#secundario h2 {
+  background-color: #db905c;
+  padding: 0.2em;
+}
+
+#menu a {
+  /*CÓMO CAMBIAR EL COLOR DE LA ETIQUETA A¿?*/
+  color: #fff;
+  font-size: 1.3em;
+}
+
+#cabecera h1 {
+  background-image: url(../images/fondo_menu3.gif);
+}
+
+.articulo h2 {
+  color: #cc6600;
+  font-size: 1.6/1.2;
+  margin-bottom: 0.3em;
+}
+
+#lateral {
+  font-size: 0.9em;
+}
+
+.fecha {
+  color: #999;
+}
+
+#noticias h3 a {
+  color: #003366;
+}
+
+#publicidad {
+  color: #555;
+}
+
+#publicidad h3 a {
+  color: #cc6600;
 }

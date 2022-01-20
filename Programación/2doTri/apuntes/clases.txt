@@ -33,4 +33,22 @@ Practica Hoja6 = new Practica (4, "Programacion", "20/01/2022");
 Hoja6.aplazarla();
 Hoja6.entregarla();
 		
+----
+JUEVES 20-01-2022
+LISTAS: 
+Ejemplo: 
+-Pan
+-Leche
+-Agua
+Arraylist
+En Arrays para saber su longitud: nombreArray.lenght.
+En Arraylist para saber su longitud: nombreArraylist.size.
+Si tenemos 3 ítems, y eliminamos el del medio. Se quedaría la lista como 1 y 2. No 1 ítem, 2 ítem (vacío) y 3 ítem.
+
+CÓMO SE DECLARAN LOS ARRAYLIST¿?
+Array simple: int[] nombreArray = new int [3]; 0-1-2
+ArrayList<Integer> nombreLista new ArrayList<Integer>();
+
+Cómo mostrar
+
 		
