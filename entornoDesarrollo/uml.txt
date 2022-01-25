@@ -1,0 +1,46 @@
+LUNES 24-01-2022
+Si hay "-" es private, si es "+" es public, si hay () es void. 
+NOMBRE - public class Nombre {
+}
+ATRIBUTOS
+-balance : Dinero --> private Dinero balance;
+- edad : int --> private int edad;
+MÉTODOS
++ ingresar() --> public void ingresar {
+}
++ ingresar() : int --> public int 
+
+~ protected. 
+
+--------
+CLASE: Producto
+
+Atributos:
+-Nombre: String
+-Familia : String
+-Precio : float
+Métodos: 
++MostrarProductos()
+
+CESTA
+Atributos:
+-Contenido : Producto <>
+Métodos: 
++ AddProducto (Producto)
++ RemoveProducto(String)
++ MostrarTicket()
+-----------
+EMPLEADO:
+Atributos:
+-seguridadSocial : String
+-EsJefe : empleado
+
+
+
+
+
+
+
+PERSONA
+
+

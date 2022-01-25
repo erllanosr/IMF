@@ -1,0 +1,25 @@
+Sala (X RONDAS)
+	Mínimo de Jugadores
+		Cartones
+
+-Rondas, cuántas rondas¿? preguntar al usuario las rondas que quiere jugar¿?
+-Jugadores por ronda¿? que el usuario elija¿?
+-Cartones. Cuántos cartones por rondas¿? uno¿? todos¿? 
+
+Todo mediante un Array list.
+¿Cómo vinculo los jugadores a las rondas, y los cartones a los jugadores¿?
+Si ya ha salido el premio de línea, el programa no debe revisar que ya no hay más líneas.
+No se debe estar comprobando desde el primer momento que hay un bingo. En las 9 primeras tiradas
+no debemos comprobar si hay bingo.
+Comprobar si hay bingo a falta de 5 números para terminar.
+Comprobar si tiene bingo cuando me falte 1 número por línea por marcar.
+
+DINERO. Es una clase¿?
+Rondas. Es una clase¿? Sí.
+Cómo se muestra el final del programa¿?
+"Ganó este jugador". El jugador con más números acertados es: 
+Una tabla con un ranking de jugadores¿?
+Stats de cada jugador: Cuántas rondas jugadas, cuántos cartones comprados, dinero que tienen.
+
+
+

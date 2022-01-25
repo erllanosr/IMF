@@ -1,22 +1,26 @@
 Rectángulo 3 partes.
 NOMBRE
-ATRIBUTOS: Propiedades que definen al nombre.
-MÉTODOS: Cosas que sabe hacer o que puede hacer un alumno, cosas que tienen relación con el programa.
+ATRIBUTOS: Propiedades, características que definen al nombre.
+MÉTODOS: Cosas que sabe hacer o que puede hacer el objeto, cosas que tienen relación con el programa.
 ------------------------------------------------------------------
 EJEMPLO:
 NOMBRE: 	ALUMNO
 ATRIBUTOS:	MATRÍCULA, NOMBRE, DNI,
 MÉTODOS: 	Estudiar, Presentar Trabajos, Pagar, Preguntar.
 ------------------------------------------------------------------
-EJEMPLO CLASE ASIGNATURA:
+EJEMPLO CLASE ASIGNATURA: 
 
 NOMBRE: 	Asignatura
 
 ATRIBUTOS:	String nombre
 		Short horas
 		String profesor
+		int duracion
 		
 MÉTODOS:	verContenido
+		matricularAlumnos
+		verResultados
+		consultarTemario
 -------------------------------------------------------------------
 NOMBRE:		Práctica
 
@@ -47,7 +51,7 @@ Si tenemos 3 ítems, y eliminamos el del medio. Se quedaría la lista como 1 y 2
 
 CÓMO SE DECLARAN LOS ARRAYLIST¿?
 Array simple: int[] nombreArray = new int [3]; 0-1-2
-ArrayList<Integer> nombreLista new ArrayList<Integer>();
+ArrayList<Integer> nombreLista = new ArrayList<Integer>();
 
 Cómo mostrar
 
