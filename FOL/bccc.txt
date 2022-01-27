@@ -1,0 +1,13 @@
+salario base: 1500 - sí cotiza
+Incentivos: 800 - Sí cotiza
+lo que no cotiza son las dietas y gastos de locomoción.
+Horas extraordinarias: 400
+
+BCC/C 1500+800+85=2385
+2 * (1500 + 800 + 85) /12 = 397,5
+2782,5
+
+BCC/PROFESIONALES: 
+2782,5 + 400 = 3182,5
+
+

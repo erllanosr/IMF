@@ -1,7 +1,0 @@
-Cuenta BANCARIA:
-Tiene 25 dígitos.
-Empieza por dos letras: ES.
-Tiene 4 guiones.
-Tiene 4 grupos de 4 números y 1 grupo de 2 números.
-El primer grupo está conformado por 2 letras y 2 números.
-

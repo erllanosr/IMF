@@ -1,0 +1,15 @@
+SALA
+ -Jugadores
+   -Cartones
+    - Cartera(Dinero)
+     - 
+OBJEETO SALA:
+ATRIBUTOS rondas.
+
+Clase cartones:
+-Metodo que genere un carton al azar.
+
+Clase Jugadores:
+-Cómo vinculo las mascotas a las personas¿? cómo vinculo los jugadores a los cartones¿?
+Los jugadores a una ronda¿?
+
