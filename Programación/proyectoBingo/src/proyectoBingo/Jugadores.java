@@ -6,7 +6,7 @@ package proyectoBingo;
 
 public class Jugadores {
 	private String nombre;
-	private int dinero;
+	private int dinero=50;
 	private int numCartones;
 	
 	// Constructor
