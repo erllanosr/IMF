@@ -1,0 +1,5 @@
+sistemas de archivos: forma de organizar los archivos de un sistema operativo.
+Tipos de Raid:
+Raid 0: No duplica la información pero es más rápido de acceder a ella. No está redundado/copiado. 
+Raid 1: Es redundante, o sea, hay los mismos dicos en cada lado. Si tenemos disco 1, habrá otro disco 1 con los mismos archivos. Es más lento pero más fiable(?).
+Raid 5: Necesitas 3 discos, uno de backup, te quedan los otros dos. etc.

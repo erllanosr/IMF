@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend>MI EXAMEN FINAL</legend>
+        <p>id y name son iguales.</p>
+    <form action="http://www.example.com/login.php">
+   
+        <p>¿Desde qué dispositivo visualizas esta página? <br>
+        <input type="radio" name="dispositivo" value="Ordenador"> Ordenador
+        <input type="radio" name="dispositivo" value="movil">Móvil
+        <input type="radio" name="dispositivo" value="tablet">Tablet
+        </p> 
+       
+    <fieldset> 
+
+        <legend>TUS DATOS</legend>
+
+        <label>Nombre:<br>
+            <input type="text" name="nombre"></label> <br>
+        
+        <label>Apellidos: <br>
+            <input type="text" name="apellidos"></label> <br>
+
+        <label for="fechanacimiento">Fecha de nacimiento:</label> <br>
+            <input type="date" name="fechanacimiento">
+        
+    </fieldset>
+   
+    <p>
+        <label for="reproductor">¿Cuál es tu reproductor de música favorito?</label>
+
+        <select name="favorito" id="reproductor">
+
+            <option value="spotify">Spotify</option>
+            <option value="deezer">Deezer</option>
+            <option value="defecto">Aplicación por defecto de música</option>
+
+        </select>    
+    </p>
+    <ul>
+    <li><p>Si elegiste Spotify o Deezer, ¿utilizas el servicio "Premium"?
+
+        <input type="radio" name="premium" value="si">Sí
+        <input type="radio" name="premium" value="no">No
+
+    </p> </li>
+
+    <li><p>¿Le añadirías algo al servicio? <br>
+
+        <textarea name="comentarios"  cols="30" rows="5" placeholder="Añade algún comentario..."></textarea>
+
+    </p></li>
+    </ul>
+
+    <label>
+
+        <input type="checkbox" name="suscribete" checked="checked">Quiero suscribirme al newsletter semanal</label>
+       
+        <br>
+
+        <input type="submit" value="Suscribirse">
+
+    </fieldset>
+    
+    </form>
+    <h1>File Input Box</h1>
+    <form action="http://www.example.com/profile.php">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song"> <br>
+        <input type="submit" value="Upload">
+    </form>
+  </body>
+</html>

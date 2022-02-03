@@ -6,7 +6,7 @@ import java.util.Random;
 public class Cartones {
 	private int[][] carton;
 	private int precioCarton = 5;
-	
+
 	public class carton {
 
 	}

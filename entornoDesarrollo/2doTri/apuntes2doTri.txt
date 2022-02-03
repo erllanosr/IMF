@@ -1,0 +1,1 @@
+Composición: Si el rombo está junto a la clase, significa que la clase se compone de otra clase. 

@@ -13,7 +13,7 @@ public class Juego {
 		System.out.println(miBombo.toString());
 
 		for (int i = 0; i <= 99; i++) {
-			
+
 			char letra;
 			System.out.print("Quieres otro número¿?");
 			letra = sc.next().charAt(0);
