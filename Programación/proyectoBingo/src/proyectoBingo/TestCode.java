@@ -25,8 +25,9 @@ public class TestCode {
 				else if (j == 9)
 					tabla[i][j] = (int) (Math.random() * 15 + 90 + 1);
 				// else if (j==10) tabla [i] [j]= (int) (Math.random() *15+90+1);
-				System.out.print(tabla[i][j]);
+				System.out.print(tabla[i][j] + "|");
 			}
+			System.out.println();
 		}
 	}
 

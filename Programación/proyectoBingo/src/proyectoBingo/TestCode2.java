@@ -12,5 +12,9 @@ public class TestCode2 {
 		}
 
 	}
+	public static int randomizarNumeros(int num) {
+		
+		return num;
+	}
 
 }

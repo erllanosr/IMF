@@ -5,51 +5,16 @@ package proyectoBingo;
 // Y no se puede validar el Bingo si es que no se ha validad antes una línea.
 
 public class Jugadores {
-	private String nombre; // Cambiar nombres a ID.
-	private int dinero = 50;
+	/*private int id; // Cambiar nombres a ID.
 	private int numCartones;
-
-	// Constructor
-	public Jugadores(String nombre, int dinero, int numCartones) {
+	public Jugadores(int id, int numCartones) {
 		super();
-		this.nombre = nombre;
-		this.dinero = dinero;
+		this.id = id;
 		this.numCartones = numCartones;
 	}
+	*/
+	
+	
 
-	// Getters and Setters
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
-	public int getDinero() {
-		return dinero;
-	}
-
-	public void setDinero(int dinero) {
-		this.dinero = dinero;
-	}
-
-	public int getNumCartones() {
-		return numCartones;
-	}
-
-	public void setNumCartones(int numCartones) {
-		this.numCartones = numCartones;
-	}
-
-	// toString
-	@Override
-	public String toString() {
-		return "Jugadores [nombre=" + nombre + ", dinero=" + dinero + ", numCartones=" + numCartones + "]";
-	}
-
-	private static void comprar() {
-
-	}
-
+	
 }

@@ -56,7 +56,7 @@ public class Bombo {
 	}
 
 	// Desordenar los números
-	public void desordenarBombo() {
+	public void randomizarBombo() {
 		Collections.shuffle(numeros);
 	}
 
