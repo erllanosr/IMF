@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>FORMULARIOS</h1>
+    <form action="data.php">
+      <h3>Texto</h3>
+      <label for="">Nombre:</label>
+      <input type="text" name="texto" id="text" placeholder="Escribe tu nombre" size="20" pattern="[0-7] {5}" />
+      <input type="reset" value="Limpiar" />
+      <hr />
+      <h3>Password</h3>
+      <label for="">Password:</label>
+      <input type="password" name="password" id="password" placeholder="Escribe tu contraseña" size="20" />
+      <hr />
+      <h3>Radio</h3>
+      <label for="">No: <input type="radio" /></label> &nbsp;&nbsp;<label for="">Sí: </label>
+      <input type="radio" />
+      <hr />
+      <h3>Box</h3>
+      <label for="">Box</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <hr />
+      <h3>Button</h3>
+      <input type="button" value="Botón¿?" />
+      <hr />
+      <h3>Color</h3>
+      <input type="color" value="color" />
+      <hr />
+      <h3>email</h3>
+      <input type="email" name="email" id="email" />
+      <hr />
+      <h3>Archivos</h3>
+      <input type="file" />
+      <hr />
+      <h3>Hidden</h3>
+      <input type="hidden" />
+      <hr />
+      <h3>Imagen</h3>
+      <label for="">Introduce una imagen: </label>
+      <input type="image" value="Click para subir Imagen" />
+      <hr />
+      <h3>Números</h3>
+      <input type="number" />
+      <hr />
+      <h3>Fecha Calendario</h3>
+      <input type="date" name="date" id="date" />
+      <hr />
+      <h3>Fecha</h3>
+      <input type="datetime" name="datetime" id="datetime" />
+      <hr />
+      <h3>Fecha Local</h3>
+      <label for="">Fecha y Hora</label>
+      <input type="datetime-local" name="datetime-local" id="datetime-local" />
+      <br />
+      <hr />
+      <select name="OS">
+        <option value="1">Windows Vista</option>
+        <option value="2">Windows 7</option>
+        <option value="3">Windows XP</option>
+        <option value="10">Fedora</option>
+        <option value="11">Debian</option>
+        <option value="12">Suse</option>
+      </select>
+      <br />
+      <hr />
+      <label for="colores">Colores de pelo</label>
+      <input list="colores" name="color" id="color" />
+      <datalist id="colores" name="colores">
+        <option value="Verde">Verde</option>
+        <option value="Amarillo">Amarillo</option>
+        <option value="Rojo">Rojo</option>
+      </datalist>
+    </form>
+  </body>
+</html>

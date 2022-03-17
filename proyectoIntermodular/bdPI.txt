@@ -1,0 +1,108 @@
+MariaDB [(none)]> show databases;
++----------------------+
+| Database             |
++----------------------+
+| DAM1                 |
+| Empresa              |
+| Examen               |
+| TestJoin             |
+| empleados            |
+| information_schema   |
+| miEmpresa            |
+| mysql                |
+| performance_schema   |
+| phpmyadmin           |
+| proyectoIntermodular |
+| test                 |
+| tienda               |
+| ventas               |
++----------------------+
+14 rows in set (0.007 sec)
+
+MariaDB [(none)]> use proyectoIntermodular;
+Database changed
+MariaDB [proyectoIntermodular]> show tables;
+Empty set (0.000 sec)
+
+<ad INT, peso INT, altura INT, disponibilidadDias INT, objetivo VARCHAR(20));
+Query OK, 0 rows affected (0.012 sec)
+
+MariaDB [proyectoIntermodular]> show tables;
++--------------------------------+
+| Tables_in_proyectoIntermodular |
++--------------------------------+
+| usuario                        |
++--------------------------------+
+1 row in set (0.000 sec)
+
+MariaDB [proyectoIntermodular]> describe usuario;
++--------------------+-------------+------+-----+---------+----------------+
+| Field              | Type        | Null | Key | Default | Extra          |
++--------------------+-------------+------+-----+---------+----------------+
+| id                 | int(11)     | NO   | PRI | NULL    | auto_increment |
+| nombre             | varchar(30) | YES  |     | NULL    |                |
+| apellido1          | varchar(30) | YES  |     | NULL    |                |
+| apellido2          | varchar(40) | YES  |     | NULL    |                |
+| edad               | int(11)     | YES  |     | NULL    |                |
+| peso               | int(11)     | YES  |     | NULL    |                |
+| altura             | int(11)     | YES  |     | NULL    |                |
+| disponibilidadDias | int(11)     | YES  |     | NULL    |                |
+| objetivo           | varchar(20) | YES  |     | NULL    |                |
++--------------------+-------------+------+-----+---------+----------------+
+9 rows in set (0.001 sec)
+
+<, objetivo) values (null, 'Roberto','Pérez','Gómez','29','80','170','4','Adelgazar');
+Query OK, 1 row affected (0.008 sec)
+
+MariaDB [proyectoIntermodular]> select * from usuario;
++----+---------+-----------+-----------+------+------+--------+--------------------+-----------+
+| id | nombre  | apellido1 | apellido2 | edad | peso | altura | disponibilidadDias | objetivo  |
++----+---------+-----------+-----------+------+------+--------+--------------------+-----------+
+|  1 | Roberto | Pérez     | Gómez     |   29 |   80 |    170 |                  4 | Adelgazar |
++----+---------+-----------+-----------+------+------+--------+--------------------+-----------+
+1 row in set (0.000 sec)
+
+<'Juan','Rodríguez','González','25','60','175','5','Subir peso');
+Query OK, 1 row affected (0.008 sec)
+
+<, objetivo) values (null, 'Sofia','Hernández','Santana','22','48','169','3','Subir peso');
+Query OK, 1 row affected (0.007 sec)
+
+MariaDB [proyectoIntermodular]> select * from usuario;
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+| id | nombre  | apellido1  | apellido2 | edad | peso | altura | disponibilidadDias | objetivo   |
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+|  1 | Roberto | Pérez      | Gómez     |   29 |   80 |    170 |                  4 | Adelgazar  |
+|  2 | Juan    | Rodríguez  | González  |   25 |   60 |    175 |                  5 | Subir peso |
+|  3 | Sofia   | Hernández  | Santana   |   22 |   48 |    169 |                  3 | Subir peso |
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+3 rows in set (0.000 sec)
+
+< apellido1, apellido2, edad, peso, altura, disponibilidadDias, objetivo) values (null, 'María','Muñoz','Aragonés','40','68','160','6','Adelgazar');
+Query OK, 1 row affected (0.007 sec)
+
+MariaDB [proyectoIntermodular]> select * from usuario;
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+| id | nombre  | apellido1  | apellido2 | edad | peso | altura | disponibilidadDias | objetivo   |
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+|  1 | Roberto | Pérez      | Gómez     |   29 |   80 |    170 |                  4 | Adelgazar  |
+|  2 | Juan    | Rodríguez  | González  |   25 |   60 |    175 |                  5 | Subir peso |
+|  3 | Sofia   | Hernández  | Santana   |   22 |   48 |    169 |                  3 | Subir peso |
+|  4 | María   | Muñoz      | Aragonés  |   40 |   68 |    160 |                  6 | Adelgazar  |
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+4 rows in set (0.000 sec)
+
+< apellido1, apellido2, edad, peso, altura, disponibilidadDias, objetivo) values (null, 'Javier','Martínez','Ríos','60','85','170','3','Adelgazar');
+Query OK, 1 row affected (0.007 sec)
+
+MariaDB [proyectoIntermodular]> select * from usuario;
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+| id | nombre  | apellido1  | apellido2 | edad | peso | altura | disponibilidadDias | objetivo   |
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+|  1 | Roberto | Pérez      | Gómez     |   29 |   80 |    170 |                  4 | Adelgazar  |
+|  2 | Juan    | Rodríguez  | González  |   25 |   60 |    175 |                  5 | Subir peso |
+|  3 | Sofia   | Hernández  | Santana   |   22 |   48 |    169 |                  3 | Subir peso |
+|  4 | María   | Muñoz      | Aragonés  |   40 |   68 |    160 |                  6 | Adelgazar  |
+|  5 | Javier  | Martínez   | Ríos      |   60 |   85 |    170 |                  3 | Adelgazar  |
++----+---------+------------+-----------+------+------+--------+--------------------+------------+
+5 rows in set (0.001 sec)

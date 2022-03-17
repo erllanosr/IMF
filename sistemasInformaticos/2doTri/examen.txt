@@ -1,3 +1,18 @@
 Día Jueves 17.
 Entra Windows Server y Raid, conceptos.
+¿Qué es un servidor empresrial? sistema informatico que ordena el acceso a los recursos de una entidad y establce niveles de seguridad y de acceso a dichos recursos. 
+¿Por qué windows es de los más implementados? Lleva mucho tiempo siéndolo(?)
+LDAP es una forma de organizar através de software(?)
+Directorio activo: 
+Controlador de dominio: Da acceso a computadores y cuentas de usuario al dominio para que cuando uno accede al dominio y se valida, se asignan permisos para todos los recursos de la red. Pero no todos los permisos. Permisos de usuario, no de administrador(?)
+Los permisos se dan o bien a grupos de seguridad o usuarios o computadoras. Una computadora es un registro de una máquina que se establece en el directorio activo. La máquina tiene solo el nombre. Una cuenta de computadora significa que hemos metido el registro en un ordenador.
+Cuentas de usuario: toda informacion relativa al usuario y el usuario tiene una validacion frente al dominio y en el dominio tendrá una serie de permisos asignados, dependendiendo al área al que pertenezca. Esto lo configura el administrador de sistemas.
+Grupos de usuarios:
+Qué diferencia hay entre un dominio y un workgroup¿? En un workgroup el dueño del sistema da permisos de sistemas a sus recursos. En el dominio quien da persmisos está de forma centralizada por el administrador de sistemas.
+
+Sistemas RAID. Raid 0. 
+Parte práctica del examen subnetting con PacketTracer.
+
+----
+Darle la primera dirección de red al gateway (Tarjeta cuando yo le envío información es porque no está en mi red local, está en otra red).
 

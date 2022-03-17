@@ -1,0 +1,6 @@
+un grupo de trabajo es un conjunto de ordenadores que no están bajo ningún dominio y que trabajan en red.
+Los permisos o los recursos que comparten los ordenadores, son compartidos por el usuario del ordenador.
+DOminio es una unidad logica, y el administrador es el que asigna los permisos para poder acceder a los recursos.
+
+BOSQUE
+agrupacion logica de arboles de dominio, donde hay un dominio padre y varios dominios que cuelgan del dominio padre

@@ -1,34 +1,24 @@
+package examen2ta;
+
+import java.util.ArrayList;
 
 public class Empleado extends Persona {
-	private int sueldoBruto;
 
-	public Empleado(String nombre, int edad, int sueldoBruto) {
-		super(nombre, edad);
-		this.sueldoBruto = sueldoBruto;
-	}
+	private int sueldo_bruto;
+	private ArrayList<Directivo> listadirectivo;
+	private Empresa destinoEmpresa;
 
-	public int getSueldoBruto() {
-		return sueldoBruto;
-	}
 
-	public void setSueldoBruto(int sueldoBruto) {
-		this.sueldoBruto = sueldoBruto;
-	}
+	public int mostrar2() {
 
-	@Override
-	public String toString() {
-		return "Empleado [sueldoBruto=" + sueldoBruto + "]";
-	}
-
-	// Método Mostrar
-	public static void mostrar() {
+		return 0;
 
 	}
 
-	// Método Calcular Salario Neto
-	public static int calcularSalarioNeto(int salario) {
+	public int calcular_salario_neto() {
 
-		return salario;
+		return 0;
+
 	}
 
 }

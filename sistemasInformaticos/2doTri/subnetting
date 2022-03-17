@@ -1,0 +1,9 @@
+HABILITAR
+En el router,
+OPTIONS, PREFERENCES, ALWAYS SHOW PORT LABELS IN LOGICAL WORKSPACE
+Subnetting,
+Si yo tengo una ip y multiplico por la mascara me da otra ip.
+Al hacer subnetting yo tengo una ip y una mascara para hacer mas grande la red.
+Del ocnjunto de ips que tengo, la primera ip es la de la red. La ip de red tiene una serie de numeracion debajo de los 1s de la mascara. 
+La siguiente ip que está debajo de los 1s y luego será los 0s 1 al final. Si tengo varias redes y varias ips de red.
+

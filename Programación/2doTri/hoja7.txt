@@ -1,0 +1,25 @@
+***HOJA 7***
+Elegir un tema que nos interese.
+Habrán 4 atributos como mínimo.
+Ejemplo: 
+Clase Comida
+Atributos: 
+-nombre plato.
+-calorías
+-nacionalidad plato
+-tiempo preparacion
+-época del año
+
+Hacer un CRUD de todo eso, manipulacion de arraylist
+Arraylist de comida, crear, read, modificar y borrar.
+Añadir comidas.
+Listar / buscar la comida que me interese.
+Modificar un plato dentro de la lista.
+Borrar un plato que esté dentro de la lista.
+
+Clase Comida con los atributos.
+Clase ArrayList de comida.
+Clase Gestion
+	Método main y metodo menú.
+Clase Lector.
+Clase Consola.

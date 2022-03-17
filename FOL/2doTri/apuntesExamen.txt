@@ -1,0 +1,32 @@
+Salario bruto anual / nº de horas efectivas de trabajo anual (convenio colectivo) Horas extraordinarias
+
+Calcular Bases Cotización
+SB --> 1290€/mes
+Plus Transporte --> 180€/mes
+Plus Herramientas --> 110€/mes
+2 PE = 1200€
+
+1290+180+110=1580
+2 * 1290/12 = 215
+1580 + 215 = 1795
+---------------
+SB --> 2400€/mes
+Antiguedad --> 120€/mes
+H. Extras --> 580€/mes
+2 PE = SB y Antiguedad
+
+BCC/C
+2400+120=2520
+2*2520/12 = 420
+2520+425 = 2940
+
+BCC/P
+2940 + 580 = 3520€
+
+PARA CALCULAR EN CALCULADORA
+SB + ANTIGUEDAD X 14 
+2400*14
+120*14
+------------
+33K anual
+

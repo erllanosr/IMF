@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ejercicio de selectores</title>
+    <style type="text/css">
+      /* No borrar la siguiente regla CSS porque es necesaria para ver los bordes de la tabla */
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      /*tamaño de texto por defecto*/
+      * {
+        font-size: 110%;
+      }
+
+      /* El titulo */
+      #titulo,
+      #cita {
+        color: teal;
+      }
+      a:lang(c) {
+      }
+      a:focus {
+        font-style: italic;
+      }
+
+      /* Los textos reasaltados */
+      strong {
+        color: red;
+      }
+
+      /* Los textos destacados */
+      .destacado {
+        color: orange;
+      }
+
+      /*Los destacados de un parrafo*/
+      p .destacado {
+        color: brown;
+        font-size: 110%;
+        font-weight: bold;
+      }
+
+      /* Los subtitulo */
+      #subtitulo {
+        color: blue;
+      }
+
+      /*las citas de un titulo*/
+       {
+        color: teal;
+      }
+
+      /* las localizacion */
+      ul p span {
+        color: olive;
+      }
+
+      /* texto especial*/
+       {
+        color: purple;
+      }
+
+      /*los enlaces */
+       {
+        color: red;
+      }
+
+      /* enfasis*/
+       {
+        color: blue;
+      }
+
+      /* parrafo contenido de adicional */
+       {
+        color: olive;
+      }
+
+      /*Texto especial contenido en adidcional */
+       {
+        color: fuchsia;
+      }
+
+      /*enlaces de adicional */
+       {
+        color: green;
+      }
+
+      /* elementos de lista */
+       {
+        list-style: none;
+      }
+
+      /* descrpcion de la tabla */
+       {
+        color: blue;
+      }
+
+      /* texto de celdas */
+       {
+        color: green;
+      }
+
+      /* texto de celdas con enfasis*/
+       {
+        color: orange;
+      }
+
+      /*cabera de la tabla*/
+       {
+        color: red;
+      }
+      /*cabera especial de la tabla*/
+       {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="titulo">Autor: Miguel de Cervantes</h1>
+    <h2 id="cita">Cita:</h2>
+    <p>
+      "En esto, descubrieron treinta o cuarenta molinos de viento que hay en aquel campo; y, así como don Quijote los
+      vio,
+    </p>
+    <ul>
+      <li>
+        <strong><span class="destacado">dijo</span> a su escudero:</strong> <br />
+        La ventura va guiando nuestras cosas mejor de lo que acertáramos a desear, porque ves allí, amigo Sancho Panza,
+        donde se descubren treinta, o pocos más, desaforados gigantes, con quien pienso hacer batalla y quitarles a
+        todos las vidas, con cuyos despojos comenzaremos a enriquecer; que ésta es buena guerra, y es gran servicio de
+        Dios quitar tan mala simiente de sobre la faz de la tierra.
+      </li>
+      <li>
+        ¿Qué gigantes? <strong><span class="destacado">dijo</span> Sancho Panza.</strong>
+      </li>
+
+      <li>
+        Aquellos que allí ves <strong><span class="destacado">respondió</span> su amo</strong> de los brazos largos, que
+        los suelen tener algunos de casi dos leguas.
+      </li>
+      <li>
+        Mire vuestra merced <strong><span class="destacado">respondió</span> Sancho</strong> que aquellos que allí se
+        parecen no son gigantes, sino molinos de viento, y lo que en ellos parecen brazos son las aspas, que, volteadas
+        del viento, hacen andar la piedra del molino.
+      </li>
+      <li>
+        Bien parece <strong><span class="destacado">respondió</span> don Quijote</strong> que no estás cursado en esto
+        de las aventuras: ellos son gigantes; y si tienes miedo, quítate de ahí, y ponte en oración en el espacio que yo
+        voy a entrar con ellos en fiera y desigual batalla.
+      </li>
+      <li>
+        Y, diciendo esto, dio de espuelas a su caballo Rocinante, sin atender a las voces que su escudero Sancho le
+        daba, advirtiéndole que, sin duda alguna, eran molinos de viento, y no gigantes, aquellos que iba a acometer.
+        Pero él iba tan puesto en que eran gigantes, que ni oía las voces de su escudero Sancho ni echaba de ver, aunque
+        estaba ya bien cerca, lo que eran; antes, iba diciendo en voces altas:
+      </li>
+      <li>Non fuyades, cobardes y viles criaturas, que un solo caballero es el que os acomete."</li>
+    </ul>
+    <p><span class="destacado">Localización:</span> Campo de Criptana, Campo de Criptana, Ciudad Real, España</p>
+    <hr />
+    <h2 id="subtitulo">Contextualización:</h2>
+
+    <p>
+      La localidad española de
+      <a href="#">Campo de Criptana, en la provincia de Ciudad Real <em>(Castilla-La Mancha)</em>,</a> es el municipio
+      español conocido por el privilegio de ser el escenario en el que Miguel de Cervantes se inspiró para escribir la
+      famosa lucha de Don Quijote contra los molinos de vientos, el pasaje más conocido y bello de El Quijote.
+    </p>
+
+    <p>La lucha de Don Quijote con los molinos de viento</p>
+
+    <p>
+      La lucha contra los molinos de viento aparece en el capítulo octavo del Ingenioso hidalgo Don Quijote de la
+      Mancha, de Miguel de Cervantes. En su obsesión por encontrar nuevas aventuras como las que él ha leido miles de
+      veces en los libros de caballería que le han hecho enloquecer, Don Quijote cree ver gigantes en los molinos de
+      vientos y, pese a las llamadas a la prudencia de Sancho, se lanza a todo galope contra uno de los molinos.
+    </p>
+
+    <p>
+      En la embestida el caballero no sale bien parado, pues
+      <span class="especial"
+        >“dándole una lanzada en el aspa, la volvió el viento con tanta furia, que hizo la lanza pedazos, llevándose
+        tras sí al caballo y al caballero, que fue rodando muy maltrecho por el campo”</span
+      >. Ante los reproches de Sancho, Don Quijote acusa de su desfortuna al sabio Frestón, el mismo que le robó los
+      libros de caballería y el aposento donde los guardaba (los primeros expurgados y dados a la hoguera y el segundo
+      tapiado por su ama y su sobrina).
+    </p>
+
+    <p>
+      El pasaje ha pasado a la historia de la literatura y la psicología como símbolo de lo “quijotesco”, es decir, de
+      la lucha de los hombres contra enemigos imaginarios o la defensa de una idea o una actitud de vida más allá de la
+      razón y el sentido común.
+    </p>
+    <table summary="Fuente:">
+      <caption>
+        Fuente:
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col" class="especial">Cervantes</th>
+          <th scope="col" class="especial">Miguel de.</th>
+        </tr>
+      </thead>
+
+      <tfoot>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Don Quijote</th>
+          <th scope="col">de la Mancha</th>
+        </tr>
+      </tfoot>
+
+      <tbody>
+        <tr>
+          <th scope="row" class="especial">Fecha de escritura o publicación</th>
+          <td>1605</td>
+          <td>Alfaguara <em>9788420467283</em></td>
+        </tr>
+        <tr>
+          <th scope="row">Género</th>
+          <td>Novela</td>
+          <td>
+            Etiquetas
+            <strong
+              >Molinos de viento de La Mancha, Dónde están los molinos de viento contra los que luchó Don Quijote, Don
+              Quijote de la Mancha</strong
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 id="localizacion">Los molinos de viento de Campo de Criptana</h3>
+    <div id="adicional">
+      <p>
+        En la localidad de Campo de Criptana
+        <span class="especial">se conserva un conjunto monumental de diez molinos</span>, situados en la ladera y cima
+        de una elevación. Tres de ellos fueron construidos en el siglo XVI, siglo en el que los molinos de vientos son
+        introducidos en la Mancha como consecuencia probablemente de una sequía que dejó en dique seco las aceñas y
+        molinos de agua tradicionales.
+      </p>
+
+      <p>
+        Las Relaciones Topográficas de Felipe II <span>ya mencionan la presencia de estos molinos</span>, y el catastro
+        de Ensenada de 1752 determina la presencia de 34 de estos molinos, algunos de los cuales permanecerion en
+        funcionamiento hasta los años cincuenta del siglo XX, principalmente dedicados a la molturación de piensos de
+        animales.
+      </p>
+
+      <p>
+        Para conocer los detalles sobre su funcionamiento, maquinaria, horarios de visita u otros aspectos de interés,
+        es aconsejable ver la información de la página <a href="#"><em>web</em> www.tierradegigantes.es</a>
+      </p>
+    </div>
+    <br />
+    <hr />
+
+    <h1>
+      Emplea los selectores necesarios para que la pagina actual se vea como la imagen que aparece a continuacion:
+    </h1>
+    <div style="align: center">
+      <img style="width: 80%; height: auto; border: 5px solid red" alt="solucion" title="solucion" src="quijote.png" />
+    </div>
+  </body>
+</html>
