@@ -1,54 +1,54 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <title>Ejercicio 6 - Calculo de la letra del DNI</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 3</title>
+  </head>
+  <body>
+    <h1>Validar el DNI</h1>
+    <p>Escribe tu DNI para saber si es correcto.</p>
+    <input type="text" name="texto" id="texto" />
+    <button onclick="myFunction()">Validar DNI</button>
     <script type="text/javascript">
-      var letras = [
-        "T",
-        "R",
-        "W",
-        "A",
-        "G",
-        "M",
-        "Y",
-        "F",
-        "P",
-        "D",
-        "X",
-        "B",
-        "N",
-        "J",
-        "Z",
-        "S",
-        "Q",
-        "V",
-        "H",
-        "L",
-        "C",
-        "K",
-        "E",
-        "T",
-      ];
-
-      var numero = prompt("Introduce tu número de DNI (sin la letra)");
-      var letra = prompt("Introduce la letra de tu DNI (en mayúsculas)");
-      letra = letra.toUpperCase();
-
-      if (numero < 0 || numero > 99999999) {
-        alert("El número proporcionado no es válido");
-      } else {
-        var letraCalculada = letras[numero % 23];
-        if (letraCalculada != letra) {
-          alert("La letra o el número proporcionados no son correctos");
-        } else {
+      function myFunction() {
+        var letras = [
+          "T",
+          "R",
+          "W",
+          "A",
+          "G",
+          "M",
+          "Y",
+          "F",
+          "P",
+          "D",
+          "X",
+          "B",
+          "N",
+          "J",
+          "Z",
+          "S",
+          "Q",
+          "V",
+          "H",
+          "L",
+          "C",
+          "K",
+          "E",
+          "T",
+        ];
+        var dni = document.getElementById("texto").value;
+        var resto = dni.substring(0, 8) % 23;
+        var letra = dni.slice(-1);
+        var letraVerdadera = letras[resto];
+        if (letraVerdadera == letra) {
           alert("El número de DNI y su letra son correctos");
+        } else {
+          alert("La letra o el número proporcionados no son correctos");
         }
       }
     </script>
-  </head>
-
-  <body>
-    <p>PÁGINA PARA SABER SI LA LETRA DEL DNI ES CORRECTA</p>
   </body>
 </html>

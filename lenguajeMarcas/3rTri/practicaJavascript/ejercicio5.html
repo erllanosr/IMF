@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="UFT-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 5</title>
   </head>
-
   <body>
+    <h1>Formularios de forma dinámica</h1>
     <b>Estado Civil: </b>
     <input type="checkbox" name="check" id="check" value="1" onchange="javascript:showContent()" />Casado
     <input type="checkbox" name="check2" id="check2" value="2" onchange="javascript:showContent()" /> Viudo
     <input type="checkbox" value="Soltero" name="soltero" id="soltero" /> Soltero
 
     <div id="content" style="display: none">
-      <label>Numero de hijos:</label>
+      <label>Número de hijos:</label>
       <input type="number" name="numero" id="numero" />
-      <button onclick="myFunction()">Enviar nueva info</button>
+      <button onclick="myFunction()">Enviar Cambios</button>
     </div>
 
     <script type="text/javascript">
@@ -29,7 +32,7 @@
         }
       }
       function myFunction() {
-        alert("OK");
+        alert("Cambios recibidos.");
       }
     </script>
   </body>

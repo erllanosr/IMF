@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 1</title>
+  </head>
+  <body>
+    <h1>Calcular el factorial</h1>
+    <p>Escribe un número para calcular el factorial.</p>
+    <input type="number" name="numero" id="numero" />
+    <button onclick="myFunction()">Calcula el factorial</button>
+    <script type="text/javascript">
+      function myFunction() {
+        var num = document.getElementById("numero").value;
+        var resultado = 1;
+
+        for (var i = 1; i <= num; i++) {
+          resultado *= i;
+        }
+        alert("El resultado es: " + resultado);
+      }
+    </script>
+  </body>
+</html>
