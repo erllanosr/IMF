@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8" />
+</head>
+
+<body>
+    <input type="text" name="texto" id="texto" />
+    <button onclick="myFunction()">Validar Código</button>
+    <script type="text/javascript">
+        function myFunction() {
+            var barra = document.getElementById("texto").value;
+
+            let num1 = parseInt(barra.substring(0, 1));
+            let num2 = parseInt(barra.charAt(1, 2));
+            let num3 = parseInt(barra.substring(2, 3));
+            let num4 = parseInt(barra.substring(3, 4));
+            let num5 = parseInt(barra.substring(4, 5));
+            let num6 = parseInt(barra.substring(5, 6));
+            let num7 = parseInt(barra.substring(6, 7));
+            let num8 = parseInt(barra.substring(7, 8));
+            let num9 = parseInt(barra.substring(8, 9));
+            let num10 = parseInt(barra.substring(9, 10));
+            let num11 = parseInt(barra.substring(10, 11));
+            let num12 = parseInt(barra.substring(11, 12));
+            let num13 = parseInt(barra.substring(12, 13));
+
+            var sumaImpares = num1 + num3 + num5 + num7 + num9 + num11;
+            var sumaPares = (num2 + num4 + num6 + num8 + num10 + num12) * 3;
+            var sumaTotal = sumaImpares + sumaPares;
+
+            let n1 = sumaTotal % 10;
+            let n2 = (10 - n1);
+
+            if (n2 == num13) {
+                alert("Válido")
+            } else {
+                alert("No Válido")
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+MARTES 10/05 9:30
+Mapa del desarrollador
+CRUD SQL SERVER DE COLECCIONES (Sellos, etiquetas, vinos, etc).
+En .net
+¿Exportar es compartir?
+Creatividad temática
+Portada animada
+Pantalla decorada
+Quiénes somos¿? Una descripción de todos nosotros, lo que hemos hecho cada uno, etc.
+El verde es para las ranas, no usar el verde.
+Puedo tenerlo o puedo buscarlo
+Donde busco es tan importnate como lo que busco
+Una imagen solo puede no ser suficiente
+Las cosas del mismo tema suelen ser más valiosas
+Video demostrativo divertido
+Hoy guardo una etiqueta mañana será una motocicleta  (reutilizable)
+Cuánto costó cuánto valdrá, saber el precio de compra y saber el precio que tendrá en un futuro.
+CSS y HTML
+
+Campo nombre, descripción, fecha adquisicion, precio Compra, precio a fecha de hoy, cantidad.
+
+La aplicación tiene que ser capaz de saber si tengo o no tengo algo. Deberá tener un buscador.
+El usuario tiene que ser capaz de añadir una colección con campos genéricos.
+Exportar los datos de cada colección en un pdf¿?
+IDEA APLICACIÓN FINAL 
+El usuario tiene que ser capaz de crear colecciones de cualquier cosa. 
+1. La portada. 
+2. En la portada debe de haber un menú donde hayan botones con opciones de buscar, añadir, borrar, modificar.
+3. BOTÓN AÑADIR --> Se abre un formulario y le pida al usuario el nombre de la colección, descripción, fecha compra, fecha registro,
+4. BOTÓN VER COLECCIONES --> Se abre una pantalla
+5. BOTÓN BORRAR -->
+6. BOTÓN MODIFICAR -->
+
+
+DIVISIÓN DE TRABAJO TODOS TENEMOS QUE TRABAJAR EN LA MISMA VERSIÓN DE FRAMEWORK
+USAMOS GIT¿?
+*Diseño de pantallas (formularios/interfaces)
+--Hillary y Paula
+*BBDD
+--David y Amir
+.Net
+--Piero y Erick

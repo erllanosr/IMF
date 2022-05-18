@@ -1,0 +1,263 @@
+<%
+response.write("Hello World!")
+%>
+---------------------------
+//VARIABLES
+SESIÓN
+
+<%
+Session.Timeout=5
+%>
+
+<%
+Session.Abandon
+%>
+
+
+<%
+Session("username")="Donald Duck"
+Session("age")=50
+%>
+
+
+Welcome <%Response.Write(Session("username"))%>
+
+<%If Session("screenres")="low" Then%>
+This is the text version of the page
+<%Else%>
+This is the multimedia version of the page
+<%End If%>
+
+
+<%
+Session.Contents.RemoveAll()
+%>
+
+
+<%
+If Session.Contents("age")<18 then
+Session.Contents.Remove("sale")
+End If
+%>
+---------------------------
+VARIABLES NORMALES
+
+dim i
+dim j
+
+For i=1 to j
+Response.Write(Application.Contents(i) & "<br>")
+Next
+
+ARRAYS
+
+Dim names(2)
+names(0)="Tove"
+names(1)="Jani"
+names(2)="Stale"
+
+mother=names(0)
+
+Dim table(4,6)
+
+%
+Dim x(2,2)
+x(0,0)="Volvo"
+x(0,1)="BMW"
+x(0,2)="Ford"
+x(1,0)="Apple"
+x(1,1)="Orange"
+x(1,2)="Banana"
+x(2,0)="Coke"
+x(2,1)="Pepsi"
+x(2,2)="Sprite"
+for i=0 to 2
+    response.write("<p>")
+    for j=0 to 2
+        response.write(x(i,j) & "<br />")
+    next
+    response.write("</p>")
+next
+%>
+---------------------------
+
+
+VARIABLES DE APLICACIÓN
+
+<script language="vbscript" runat="server">
+
+Sub Application_OnStart
+application("vartime")=""
+application("users")=1
+End Sub
+
+</script>
+
+
+There are
+<%
+Response.Write(Application("users"))
+%>
+
+---------------------------
+
+//MÉTODOS SUB
+
+<!DOCTYPE html>
+<html>
+<head>
+<%
+sub vbproc(num1,num2)
+response.write(num1*num2)
+end sub
+%>
+</head>
+<body>
+
+<p>Result: <%call vbproc(3,4)%></p>
+
+</body>
+</html>
+
+
+---------------------------
+//MÉTODOS FUNCTION
+<%@ language="javascript" %>
+<!DOCTYPE html>
+<html>
+<head>
+<%
+function jsproc(num1,num2)
+{
+Response.Write(num1*num2)
+}
+%>
+</head>
+<body>
+
+<p>Result: <%jsproc(3,4)%></p>
+
+</body>
+</html>
+
+---------------------------
+
+ESTRUCTURAS
+
+i=hour(time)
+If i < 10 Then
+response.write("Good morning!")
+Else
+response.write("Have a nice day!")
+End If
+
+
+i=hour(time)
+If i = 10 Then
+response.write("Just started...!")
+ElseIf i = 11 Then
+response.write("Hungry!")
+ElseIf i = 12 Then
+response.write("Ah, lunch-time!")
+ElseIf i = 16 Then
+response.write("Time to go home!")
+Else
+response.write("Unknown")
+End If
+
+
+d=weekday(date)
+Select Case d
+  Case 1
+    response.write("Sleepy Sunday")
+  Case 2
+    response.write("Monday again!")
+  Case 3
+    response.write("Just Tuesday!")
+  Case 4
+    response.write("Wednesday!")
+  Case 5
+    response.write("Thursday...")
+  Case 6
+    response.write("Finally Friday!")
+  Case else
+    response.write("Super Saturday!!!!")
+End Select
+
+<%
+For i = 0 To 5
+  response.write("The number is " & i & "<br />")
+Next
+%>
+
+For i=2 To 10 Step 2
+  some code
+Next
+
+For i=1 To 10
+  If i=5 Then Exit For
+  some code
+Next
+
+<%
+Dim cars(2)
+cars(0)="Volvo"
+cars(1)="Saab"
+cars(2)="BMW"
+
+For Each x In cars
+  response.write(x & "<br />")
+Next
+%>
+
+Do While i>10
+  some code
+Loop
+
+Do
+  some code
+Loop While i>10
+
+Do Until i=10
+  some code
+Loop
+
+Do
+  some code
+Loop Until i=10
+
+Do Until i=10
+  i=i-1
+  If i<10 Then Exit Do
+Loop
+
+
+
+
+
+
+
+//REQUEST
+<form method="get" action="simpleform.asp">
+First Name: <input type="text" name="fname"><br>
+Last Name: <input type="text" name="lname"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+<%
+response.write(request.querystring("fname"))
+response.write(" " & request.querystring("lname"))
+%>
+
+<%
+response.write(request.form("fname"))
+response.write(" " & request.form("lname"))
+%>
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+
+Console.WriteLine("Hello World!");
+
+
+TIPOS DE DATOS
+https://docs.microsoft.com/es-es/dotnet/csharp/fundamentals/types/
+https://www.incanatoit.com/2014/11/operadores-tipos-de-datos-variables-programacion-csharp-net.html
+
+		//comentario
+            int _numero = 0;
+            int _numero2 = 0;
+            double _numero3 = 0.0d;
+            bool _flag = false;
+            string _name = "hola";
+            /*multi
+             comentario*/
+            _numero2++;
+            _numero2 += 3;
+            _numero = _numero2 * 2;
+            _flag = _flag && true;
+            _numero = _name.Length;
+
+OPERADORES && || ++ += -- -= (/*-+)
+
+ESTRUCTURAS
+
+            if (_flag)
+            {
+                Console.WriteLine("true");
+            }
+            else 
+            {
+                Console.WriteLine("false");
+            }
+
+            if (_numero == 0)
+            {
+                Console.WriteLine("igual");
+            }
+            else if (_numero!= 0)
+            {
+                Console.WriteLine("diferente");
+            }
+            //recorrido fijo
+            for (int i = 0; i < _name.Length; i++)
+            {
+                Console.WriteLine(i + " : " + _name.Substring(i,1));
+            }
+
+            //recorrido variable
+            _numero = 0;
+            while (_numero != 100)
+            { 
+                _numero++;
+            }
+
+ARRAYS
+https://docs.microsoft.com/es-es/dotnet/api/system.array?view=net-6.0
+
+int[] myIntArray = new int[5] { 1, 2, 3, 4, 5 };
+
+            foreach (int i in myIntArray)
+            { 
+                Console.WriteLine(i);
+            }
+
+CLASES
+
+ internal class persona
+    {
+        private string name;    
+        private int id; 
+        private int age;
+
+        public persona(string name, int id, int age)
+        {
+            this.Name = name;
+            this.id = id;
+            this.age = age;
+        }
+
+        public string Name { get => name; set => name = value; }
+        public int Id { get => id; set => id = value; }
+        public int Age { get => age; set => age = value; }
+    }
+
+------------------ Uso get y set
+
+            persona pepe = new persona("pepe", 1, 23);
+
+            pepe.Name = "lola";
+
+            Console.WriteLine(pepe.Name);
+
+-------------------
+
+
+MÉTODOS
+
+https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/methods
+
+
+   	static void Main(string[] args)
+        {
+            Console.WriteLine(dameDato(4));
+        }
+
+        static int dameDato(int valor) 
+        {
+            return ++valor;
+        }

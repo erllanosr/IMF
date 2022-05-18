@@ -3,4 +3,4 @@ Las ips, numeración, está especificamente hechas para ser ips de internet o ip
 Un protocolo, es como una forma de pedir que se haga algo, un conjunto de reglas. 
 
 Jueves 20-01-2022
-Grupo: Un grupo es la forma de agrupar usuarios y sirve para que cuando yo incluyo a un usuario a un grupo, y como el grupo ya tiene permisos establecidos, los usuarios hereda todos los permisos que hay en el grupo.
+Grupo: Un grupo es la forma de agrupar usuarios y sirve para que cuando yo incluyo a un usuario a un grupo, y como el grupo ya tiene permisos establecidos, los usuarios heredan todos los permisos que hay en el grupo.

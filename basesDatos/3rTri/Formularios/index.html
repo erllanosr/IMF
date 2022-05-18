@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica Formulario BD 3 Tri</title>
+  </head>
+  <body>
+    <form action="https://lanzadera.tk/Programas/DAMDAW/leeformulario.php" method="get">
+      <label for="name">Nombre: </label>
+      <input type="text" name="nombre" required />
+      <br />
+      <br />
+      <label for="apellidos">Apellidos: </label>
+      <input type="text" name="apellidos" />
+      <br />
+      <br />
+      <label for="contrasenia">Clave: </label>
+      <input type="password" name="clave" />
+      <br />
+      <br />
+      <label for="sexo">Sexo: </label>
+      <input type="radio" name="sexo" value="hombre" required /> Hombre
+      <input type="radio" name="sexo" value="mujer" required /> Mujer
+      <br />
+      <br />
+      <label for="edad">Edad: </label>
+      <input type="number" name="edad" />
+      <br />
+      <br />
+      <label for="fecha">Fecha: </label>
+      <input type="date" name="fecha" />
+      <br />numero
+      <br />
+      <label for="hora">Hora: </label>
+      <input type="time" name="hora" />
+      <br />
+      <br />
+      <label for="estado">Estado: </label>
+      <input type="checkbox" name="estado" value="soltero" />Soltero/a
+      <input type="checkbox" name="estado" value="casado" />Casado/a
+      <input type="checkbox" name="estado" value="viudo" />Viudo/a
+      <input type="checkbox" name="estado" value="otro" />Otro
+      <br />
+      <br />
+      <label for="color">Color: </label>
+      <input type="color" name="color" />
+      <br />
+      <br />
+      <label for="rango">Rango: </label>
+      <input type="range" name="rango" />
+      <br />
+      <br />
+      <label for="option">Opción: </label>
+      <select name="hijos">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Enviar" name="enviar" />
+      <input type="reset" value="Borrar" />
+    </form>
+  </body>
+</html>

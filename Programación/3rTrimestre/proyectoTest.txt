@@ -1,0 +1,30 @@
+The Big Bang Theory
+Personajes:
+-- Sheldon Cooper
+-- Leonard Hofstadter
+-- Howard Wolowitz
+-- Amy Farrah Fowler
+-- Bernadette Rostenkowski
+-- Penny Hofstadter
+-- Rajesh Koothrappali
+
+Preguntas:
+--20¿?
+
+
+Imágenes:
+-- Qué tipo¿?
+
+BBDD:
+PROCESAR RESPUESTAS:
+-- Cómo asignar las respuestas correctas a un personaje¿?
+ALGORITMO 1. Asignar +1 -1 depende la respuesta para cada personaje.
+ALGORITMO 2. Lógica difusa. Todos los personajes tienen un 100% de ser correcta. Depende las respuestas el porcentaje va cambiando.
+
+--  Crear tablas:
+1.- Tabla: Preguntas
+2.- Tabla: Respuestas
+3.- Tabla: 
+-- Asignar las respuestas correctas a las preguntas¿?
+
+-- 

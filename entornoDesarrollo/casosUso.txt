@@ -1,0 +1,13 @@
+Casos de uso --> Parte descriptiva
+---------------------------------------------
+		Descripción
+Precondiciones- (Login) | Postcondiciones - (Nueva consulta)
+Datos de entrada (País - IP)	| 		Datos de salida (Nombre persona - Dir. email - teléfono - pregunta)
+Tablas	(Usuarios - Consultas/preguntas)	| 	Clases(Validar.php - enviar.php - )	 |	Interfaces gráficas(formContacto.html)
+
+
+Interacción de un usuario con nuestro sistema.
+Qué hace un usuario con mi sistema¿? Los requisitos.
+
+Include si algo es obligatorio.
+

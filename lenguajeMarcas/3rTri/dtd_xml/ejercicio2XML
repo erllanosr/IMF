@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE notas [
+<!ELEMENT notas (alumno,calificaciones)>
+<!ELEMENT alumno (nombre,apellidos,DNI,carrera,curso)>
+<!ELEMENT calificaciones (evaluacion)*>
+<!ELEMENT evaluacion (asignatura)*>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT asignatura (#PCDATA)>
+
+<!ATTLIST evaluacion numero (1|2|3) #REQUIRED>
+<!ATTLIST evaluacion tipo (normal|recuperacion) #REQUIRED>
+<!ATTLIST asignatura profesor CDATA #REQUIRED>
+<!ATTLIST asignatura calificacion CDATA #REQUIRED>
+]>
+
+<notas>
+	<alumno>
+		<nombre>Carlos</nombre>
+		<apellidos>Moreno Vázquez</apellidos>
+		<DNI>87412563T</DNI>
+		<carrera>DAW</carrera>
+		<curso>Primero</curso>
+	</alumno>
+	<calificaciones>
+		<evaluacion numero="1" tipo="normal">
+			<asignatura profesor="Juan Sanchez" calificacion="Suficiente">BBDD</asignatura>
+			<asignatura profesor="Elena López " calificacion="Notable">LM</asignatura>
+			<asignatura profesor="José Marín" calificacion="Insuficiente">Programación</asignatura>
+		</evaluacion>
+		<evaluacion numero="1" tipo="recuperacion">
+			<asignatura profesor="José Marín" calificacion="No apto">Programación</asignatura>
+		</evaluacion>
+		<evaluacion numero="2" tipo="normal">
+			<asignatura profesor="Juan Sanchez" calificacion="Suficiente">BBDD</asignatura>
+			<asignatura profesor="Elena López " calificacion="Sobresaliente">LM</asignatura>
+			<asignatura profesor="José Marín" calificacion="Suficiente">Programación</asignatura>
+		</evaluacion>
+		<evaluacion numero="3" tipo="normal">
+			<asignatura profesor="Juan Sanchez" calificacion="Suficiente">BBDD</asignatura>
+			<asignatura profesor="Elena López " calificacion="Notable">LM</asignatura>
+			<asignatura profesor="José Marín" calificacion="Suficiente">Programación</asignatura>
+		</evaluacion>
+	</calificaciones>
+</notas>

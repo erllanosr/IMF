@@ -1,0 +1,4 @@
+base de datos: betec_1daw 
+mysql 5.6
+usuario: betec_ad1daw
+clave: Morcilla01.

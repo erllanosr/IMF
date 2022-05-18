@@ -6,9 +6,8 @@ public class Caso1 {
 	public static void main(String[] args) {
 		// Caso 1.
 		// Crea un ArrayList de números consecutivos con la dimensión que diga
-		// el usuario por consola. Muéstralo. 2,5 puntos.
+		// el usuario por consola. Muéstralo.
 		mostrarNumeros();
-
 	}
 
 	// Método
@@ -18,12 +17,11 @@ public class Caso1 {
 		ArrayList<Integer> listaNumeros = new ArrayList<Integer>(numero);
 		System.out.print("Ingresa un número: ");
 		numero = sc.nextInt();
-
 		for (int i = 1; i <= numero + 1; i++) {
 			i--;
-			// listaNumeros.sort(null);
 			listaNumeros.add(i++);
 		}
+
 		listaNumeros.remove(0);
 		System.out.println(listaNumeros.toString());
 

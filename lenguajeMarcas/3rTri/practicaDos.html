@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        background-color: lightgrey;
+
+        direction: ltr; /* rtl; ltr */
+
+        flex-direction: row; /* row | row-reverse | column | column-reverse */
+
+        justify-content: space-around; /* prueba flex-start flex-end center space-between space-around */
+
+        align-items: stretch; /* prueba stretch flex-start flex-end center baseline */
+
+        flex-wrap: wrap; /*nowrap wrap wrap-reverse */
+
+        align-content: space-around; /* prueba flex-start flex-end center space-between space-around  para modificar como se
+            
+            envuelven los contenidos declarador con flex-wrap: wrarp */
+      }
+
+      .flex-item {
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+
+        order: 1; /* 1 | 0 | 1 */
+
+        margin: top; /* left | right | top | down | auto */
+
+        align-self: stretch; /* stretch | flex-start | flex-end | center | baseline */
+
+        /*flex:valor;*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item">Elemento Flex 1</div>
+      <div class="flex-item">Elemento Flex 2</div>
+      <div class="flex-item">Elemento Flex 3</div>
+    </div>
+  </body>
+</html>

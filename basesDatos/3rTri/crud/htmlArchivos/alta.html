@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewsport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+
+    <title>Altas | CRUD</title>
+  </head>
+  <body>
+    <header>
+      <nav class="topnav">
+        <a href="../htmlArchivos/index.html">Inicio</a>
+        <a href="../htmlArchivos/alta.html" class="active" target="_blank">Altas</a>
+        <a href="../phpArchivos/baja.php" target="_blank">Bajas</a>
+        <a href="../phpArchivos/modificar.php" target="_blank">Modificar</a>
+        <a href="../phpArchivos/mostrar.php" target="_blank">Mostrar</a>
+      </nav>
+      <main>
+        <h1>Altas | CRUD</h1>
+        <h3>Ingresa los datos de la persona para dar de alta.</h3>
+
+        <form action="/crud/phpArchivos/alta.php" method="get" class="form_Altas">
+          <fieldset>
+            <legend>Altas</legend>
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" name="nombre" required placeholder="Nombre" /><br />
+            <label for="apellido1">Apellido 1:</label> <br />
+            <input type="text" name="apellido1" required placeholder="Apellido 1" /><br />
+            <label for="apellido2">Apellido 2:</label><br />
+            <input type="text" name="apellido2" required placeholder="Apellido 2" /><br />
+            <label for="telefono">Teléfono: </label><br />
+            <input type="number" name="telefono" minlength="9" maxlength="9" required placeholder="Teléfono" />
+            <br />
+            <br />
+            <input type="submit" value="Enviar" name="enviar" class="btn" />
+          </fieldset>
+        </form>
+      </main>
+      <footer>
+        <p>Erick Llanos Ríos | 1º DAW</p>
+      </footer>
+    </header>
+  </body>
+</html>

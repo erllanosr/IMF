@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  font-family: 'Roboto Mono', monospace;
+  /*border: 1px solid red;*/
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+/*Estilos para la barra de navegación*/
+.topnav {
+  background-color: #282a36;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffb86c;
+  color: #282a36;
+}
+
+.topnav a.active {
+  background-color: #ffb86c;
+  color: #282a36;
+}
+
+/*Titulo*/
+h1,
+h3,
+footer,
+form,
+table {
+  margin-top: 25px;
+}
+
+table {
+  border-spacing: 15px;
+  /*border: 1px solid purple;*/
+}
+
+/*Estilos para forms y tables*/
+h1,
+h3,
+footer,
+.form_Altas,
+.tabla_Bajas,
+.form_Actualizar,
+.tabla_Modificar,
+.tabla_Mostrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th a {
+  text-decoration: none;
+  background-color: #ffb86c;
+  color: #282a36;
+}

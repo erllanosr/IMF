@@ -1,4 +1,5 @@
-un grupo de trabajo es un conjunto de ordenadores que no están bajo ningún dominio y que trabajan en red.
+UN GRUPO DE TRABAJO es un conjunto de ordenadores que no están bajo ningún dominio y que trabajan en red.
+UNA CUENTA DE USUARIO es una colección de información que indica al sistema operativo los archivos y carpetas a los que puede tener acceso un determinado usuario del equipo,
 Los permisos o los recursos que comparten los ordenadores, son compartidos por el usuario del ordenador.
 DOminio es una unidad logica, y el administrador es el que asigna los permisos para poder acceder a los recursos.
 

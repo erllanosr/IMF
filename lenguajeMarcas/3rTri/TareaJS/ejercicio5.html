@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UFT-8" />
+  </head>
+
+  <body>
+    <b>Estado Civil: </b>
+    <input type="checkbox" name="check" id="check" value="1" onchange="javascript:showContent()" />Casado
+    <input type="checkbox" name="check2" id="check2" value="2" onchange="javascript:showContent()" /> Viudo
+    <input type="checkbox" value="Soltero" name="soltero" id="soltero" /> Soltero
+
+    <div id="content" style="display: none">
+      <label>Numero de hijos:</label>
+      <input type="number" name="numero" id="numero" />
+      <button onclick="myFunction()">Enviar nueva info</button>
+    </div>
+
+    <script type="text/javascript">
+      function showContent() {
+        element = document.getElementById("content");
+        check = document.getElementById("check");
+        if (check.checked) {
+          element.style.display = "block";
+        } else if (check2.checked) {
+          element.style.display = "block";
+        } else {
+          element.style.display = "none";
+        }
+      }
+      function myFunction() {
+        alert("OK");
+      }
+    </script>
+  </body>
+</html>
