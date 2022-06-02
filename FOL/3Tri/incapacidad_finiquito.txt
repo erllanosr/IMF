@@ -1,0 +1,84 @@
+Ejercicio 2. Página 28.
+-------------------------
+-Programador Junior.
+
+-Contrato indefinido.
+Inicio fecha trabajo: 01/06/2017
+Desipido 31/01/2022
+
+Tiempo total trabajado: 
+-4 años, 7 meses, y 30 días
+-1705 días
+
+Retribuciones:
+-SB: 1850€/mes
+-2 x Devengo Anual.
+ 
+NOTA MENTAL:
+Devengo semestral: 1/01 - 30/06
+Devengo anual: 01/07 - 31/12
+
+1. CALCULAR PAGAS <-- Aquí se calculan los devengos, ANUAL O SEMESTRAL. 
+-VERANO --> 1850/12 x 7m (01-07 - 31/12) = 1.079,16 €
+-NAVIDAD --> 1850/12 x 1m (enero) = 154,16€
+TOTAL = 1.233,32 €
+------------------------------------------------------------------------
+2. VACACIONES
+12m --- 30dias 
+1m  --- 2,5dias
+30/12= 2,5días.
+
+Pasamos a diario el SB.
+Se puede hacer de dos maneras:
+1) 1850/30 = 61,66 * 2,5 = 154,16€
+2) 1850 x 2,50 / 30 = 154,16€
+VACACIONES = 154,16€
+------------------------------------------------------------------------
+3. INDEMNIZACIONES
+DESPIDO IMPROCEDENTE --> derecho a 33 días por año.
+4 años, 8 meses trabajados.
+4 años: 4 * 33d = 132d
+8 meses: 22d
+Total: 154 días.
+
+CONVERTIR EL SALARIO A DIARIO
+SB --> 1850
+SBD --> 1850/30 = 61,66€
+
+ANUAL
+1850 * 14 = 25900€ / anual
+25900/360 = 71,94€ / diario
+
+154d x 71,94€ = 11079,44€ <-- INDEMNIZACIÓN
+-----------------------------------------------------------------------
+
+TOTAL TOTAL: 
+PAGAS --> 1.233,32€
+VACIONES --> 154,16€
+INDEMNIZACIONES --> 11079€
+TOTAL --> 14316,92€
+
+------ 
+INCAPACIDAD TEMPORAL
+ESTO PARA: 
+ENFERMEDAD COMÚN (GRIPE por ejemplo).
+ACCIDENTE NO LABORAL (ACCIDENTE DE TRÁFICO durante las vacaciones)
+
+BASE REGULADORA: BCCC mes anterior a la baja / num días mes anterior a la baja. EJEMPLO 10€.
+Tiempo: 1-3 día --> no cobra nada --> NADA
+4-20 dia --> el 60% de la BR. --> 60% DE 10€
+21 en adelante --> 60% BR. --> 75% DE 10€
+
+Quién lo paga¿? 1dia - 15dia --> La empresa.
+16 dia en adelante --> La SS.
+
+ACCIDENTE DE TRABAJO (Accidente en una obra)
+ENFERMEDAD PROESIONAL (Asma de un minero)
+
+BR = BCCP MES ANTERIOR / Num Días mes anterior + HORAS EXTRAS año anterior / 365 -> EJEMPLO 30€
+Tiempo: 1 dia --> no cobra nada.
+2 día en adelante --> 75% de la BR --> 75% de 30€.
+Quién paga¿? Entidad gestoras.
+
+
+
