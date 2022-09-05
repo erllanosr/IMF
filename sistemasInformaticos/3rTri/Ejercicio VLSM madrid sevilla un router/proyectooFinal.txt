@@ -1,0 +1,18 @@
+Qué es VLSM
+VLSM se divide una red o subred en subredes más pequeñas cuyas máscaras son diferentes, dependiendo de los hosts por subred.
+
+Subnetting
+Dividir una red IP física en subredes.
+
+VLAN divide los grupos de usuarios de la red de una red física real en segmentos de redes lógicas.
+Cada puerto de swithc se puede asignar a una vlan. 
+
+Routing, es la manera de mover o transferir información enter una o varias redes de Internet.
+El switching hace posible la conexión entre varios dispositivos. 
+
+El frame relay es un protocolo de comunicacion de paquetes digital, conecta redes de area local LAN a través de redes WAN. 
+LAN LOCAL REA NETWORK
+WAN WIDE AREA NETWORK Areas más grandes
+
+DHCP es un protocolo que asgina IPS a los equipos de la red.
+SWITCH para conectar equipos en red (Impresoras, servidores, etc), formando una red LAN, de área local.
